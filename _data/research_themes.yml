@@ -1,0 +1,42 @@
+- title: "Project Theme 1"
+  key: "projtheme1"
+  hasimage: 1
+  width: 60%
+  image: tmp.jpg
+  description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+  authors:  Member 1, Member 2, Member 3
+  year: 2018
+  tag: 10001
+  highlight: 1
+  news1:
+  news2: 
+  long: 1
+
+- title: "Project Theme 2"
+  key: "projtheme2"
+  hasimage: 1
+  width: 60%
+  image: tmp.jpg
+  description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  tag: 10002
+  highlight: 1
+  news1:
+  news2: 
+  long: 0
+
+
+- title: "Project Theme 3"
+  key: "projtheme3"
+  hasimage: 1
+  width: 60%
+  image: tmp.jpg
+  description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+  authors:  Member 1, Member 2, Member 3
+  year: 2023
+  tag: 10003
+  highlight: 1
+  news1:
+  news2: 
+  long: 0

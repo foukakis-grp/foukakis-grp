@@ -1,17 +1,21 @@
 ---
-title: "Allan Lab - Publications"
+title: "Foukakis Lab - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Foukakis Lab -- Publications."
 sitemap: false
+years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010]
 permalink: /publications/
 ---
+<!-- _pages/publications.md -->
 
 
 # Publications
 
+(See also the personal webpage of our group members)
+
 ## Group highlights
 
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
+(For a full list of publications, see [below](#full-list-of-publications), and see also the personal webpage of our group members)
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -53,15 +57,31 @@ permalink: /publications/
 
 
 ## Patents
-<em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)
 
-<em>Milan P Allan</em><br /> Methods of manufacturing superconductor and phononic elements <br /> <a href="https://patents.google.com/patent/US10439125B2/en?inventor=Milan+ALLAN&oq=inventor:(Milan+ALLAN)">US10439125B2 (2016)</a>
+{% for patent in site.data.patents %}
+
+  <em>{{ patent.authors }}</em><br />{{ patent.title }}<br /> <a href="{{patent.url}}">{{ patent.identifier }} ({{patent.year}})</a>
+
+{% endfor %}
 
 ## Full List of publications
 
-{% for publi in site.data.publist %}
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+## List of Publications
 
+### Under Review
+<div class="publications">
+  
+{% bibliography -f publications -q @*[published={{0}}]* %}
+
+</div>
+
+### Published
+<div class="publications">
+
+{%- for y in page.years %}
+  <h3 class="year">{{y}}</h3>
+  {% bibliography -f publications -q @*[year={{y}}]* %}
 {% endfor %}
+
+</div>
