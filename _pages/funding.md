@@ -38,16 +38,16 @@ as well as those which support us with computational resources:
 
 <div class="row">
 
+<div class="col-sm-2 clearfix vcenter" style="margin: 0 50px 0 0;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/vr.svg" style="width: 180px; margin: 0 10px;">
+</div>
+
 <div class="col-sm-2 clearfix vcenter" style="margin: 0 50px 0 0px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/european_commission.jpg" style="width: 180px">
 </div>
 
 <div class="col-sm-2 clearfix vcenter" style="margin: 0 50px 0 0;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/naiss.jpg" style="width: 180px;">
-</div>
-
-<div class="col-sm-2 clearfix vcenter" style="margin: 0 50px 0 0;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/alvis_logo.svg" style="width: 180px;">
 </div>
 
 
