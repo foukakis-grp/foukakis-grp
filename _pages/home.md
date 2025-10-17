@@ -1,7 +1,7 @@
 ---
 title: "Foukakis Lab - Home"
 layout: homelay
-excerpt: "Foukakis Lab @ Karolinska Institutet &rarr; KI."
+excerpt: "Foukakis Lab -- Home"
 sitemap: false
 permalink: /
 ---

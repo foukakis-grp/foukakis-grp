@@ -1,7 +1,7 @@
 ---
-title: "About the website"
+title: "Foukakis Lab - About the website"
 layout: textlay
-excerpt: "About the website."
+excerpt: "Foukakis Lab -- About the website."
 sitemap: false
 permalink: /aboutwebsite.html
 ---

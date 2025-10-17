@@ -1,7 +1,7 @@
 ---
-title: "News"
+title: "Foukakis Lab - News"
 layout: textlay
-excerpt: "Foukakis Lab @ Karolinska Institutet"
+excerpt: "Foukakis Lab -- News"
 sitemap: false
 permalink: /allnews.html
 ---
