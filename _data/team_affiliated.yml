@@ -1,0 +1,55 @@
+- name: "Alexios Matikas"
+  photo: no-photo.jpg
+  info: Associate Professor / Affiliated to Research
+  email: alexios.matikas@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Ioannis Zerdes"
+  photo: no-photo.jpg
+  info: Associate Professor / Affiliated to Research
+  email: ioannis.zerdes@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Andri Papakonstantinou"
+  photo: no-photo.jpg
+  info: Affiliated to Research
+  email: andri.papakonstantinou@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Louise Eriksson"
+  photo: no-photo.jpg
+  info: Affiliated to Research
+  email: louise.eriksson@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Xingrong Liu"
+  photo: no-photo.jpg
+  info: Statistician
+  email: xingrong.liu@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Emmanouil Sifakis"
+  photo: no-photo.jpg
+  info: Bioinformatician
+  email: emmanouil.sifakis@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Susanne Agartz"
+  photo: no-photo.jpg
+  info: Laboratory Engineer
+  email: susanne.agartz@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2

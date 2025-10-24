@@ -1,0 +1,15 @@
+- name: "Helen Eriksson"
+  photo: no-photo.jpg
+  info: Administrator
+  email: helen.eriksson@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Johanna Klinge"
+  photo: no-photo.jpg
+  info: Research Engineer
+  email: johanna.klinge@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2

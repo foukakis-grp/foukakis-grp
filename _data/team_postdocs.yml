@@ -1,0 +1,63 @@
+- name: "Georgios Manikis"
+  photo: no-photo.jpg
+  info: Postdoctoral Studies
+  email: georgios.manikis@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Michail Sarafidis"
+  photo: no-photo.jpg
+  info: Postdoctoral Studies
+  email: michail.sarafidis@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Konstantinos Georgiadis"
+  photo: no-photo.jpg
+  info: Postdoctoral Studies
+  email: konstantinos.georgiadis@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Sen Li"
+  photo: no-photo.jpg
+  info: Postdoctoral Studies
+  email: sen.li@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Panagiotis Filis"
+  photo: no-photo.jpg
+  info: Postdoctoral Studies
+  email: panagiotis.filis@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Kerstin Wimmer"
+  photo: no-photo.jpg
+  info: Postdoctoral Studies
+  email: kerstin.wimmer@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Rong Deng"
+  photo: no-photo.jpg
+  info: Postdoctoral Studies
+  email: rong.deng@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Eirini Pantiora"
+  photo: no-photo.jpg
+  info: Postdoctoral Studies
+  email: eirini.pantiora@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2

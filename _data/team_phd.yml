@@ -1,0 +1,64 @@
+- name: "Caroline Boman"
+  photo: no-photo.jpg
+  info: PhD Student
+  email: caroline.boman@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Kang Wang"
+  photo: no-photo.jpg
+  info: PhD Student
+  email: kang.wang@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Evangelos Tzoras"
+  photo: no-photo.jpg
+  info: PhD Student
+  email: evangelos.tzoras@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Dimitrios Salgkamis"
+  photo: no-photo.jpg
+  info: PhD Student
+  email: dimitrios.salgkamis@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Nikos Tsiknakis"
+  photo: no-photo.jpg
+  info: PhD Student
+  email: nikolaos.tsiknakis@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Maria Angeliki Toli"
+  photo: no-photo.jpg
+  info: PhD Student
+  email: maria.angeliki.toli@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Behnaz Binicy"
+  photo: no-photo.jpg
+  info: PhD Student
+  email: behnaz.khalilzadehbinicy@ki.se
+  number_educ: 2
+  education1: Education 1
+  education2: Education 2
+
+- name: "Emilia Morales"
+  photo: no-photo.jpg
+  info: PhD Student
+  email: emilia.morales@ki.se
+  number_educ: 2
+  education1: Master of Medical Science @ Uppsala University, 2024
+  education2: Master of Translational Medical Research @ Heidelberg University, 2023
+  education3: Bachelor in Biotechnological Processes Engineering @ Universidad San Francisco de Quito, 2020
