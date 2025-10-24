@@ -25,10 +25,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
-
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
   {% endif %}
@@ -37,16 +36,6 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <li> {{ member.education1 | markdownify}} </li>
   <li> {{ member.education2 | markdownify}} </li>
   {% endif %}
-
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">View more</a>
-<div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
-{%- for y in page.tags %}
-{%- if y == theme-item.tag or y == theme-item.taga -%}
-{% bibliography -f publications -q @*[tag={{y}} || taga={{y}}]]* %}
-{% endif %}
-{% endfor %}
-</div></div></div>
-
 
   {% if member.number_educ == 3 %}
   <li> {{ member.education1 | markdownify}} </li>
@@ -70,6 +59,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   {% endif %}
 
   </ul>
+  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
+  {{ member.text }}
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -100,7 +92,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-affiliated">{{ member.name }}</a></h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
@@ -127,6 +119,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   {% endif %}
 
   </ul>
+
+  <div class="collapse" id="{{member.id}}-affiliated" style="text-align: left;">
+  {{ member.text }}
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -157,7 +153,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-postdoc">{{ member.name }}</a></h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
@@ -184,6 +180,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   {% endif %}
 
   </ul>
+
+  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: left;">
+  {{ member.text }}
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -214,7 +214,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-phd">{{ member.name }}</a></h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
@@ -241,6 +241,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   {% endif %}
 
   </ul>
+  
+  <div class="collapse" id="{{member.id}}-phd" style="text-align: left;">
+  {{ member.text }}
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -271,7 +275,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-student">{{ member.name }}</a></h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
@@ -298,6 +302,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   {% endif %}
 
   </ul>
+
+  <div class="collapse" id="{{member.id}}-student" style="text-align: left;">
+  {{ member.text }}
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -328,7 +336,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-admin">{{ member.name }}</a></h4>
   <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
@@ -355,6 +363,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   {% endif %}
 
   </ul>
+
+  <div class="collapse" id="{{member.id}}-admin" style="text-align: left;">
+  {{ member.text }}
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

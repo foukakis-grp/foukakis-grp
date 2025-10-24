@@ -5,6 +5,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 40001
 
 - name: "Michail Sarafidis"
   photo: no-photo.jpg
@@ -13,6 +15,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 40002
 
 - name: "Konstantinos Georgiadis"
   photo: no-photo.jpg
@@ -21,6 +25,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 40003
 
 - name: "Sen Li"
   photo: no-photo.jpg
@@ -29,6 +35,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 40004
 
 - name: "Panagiotis Filis"
   photo: no-photo.jpg
@@ -37,6 +45,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 40005
 
 - name: "Kerstin Wimmer"
   photo: no-photo.jpg
@@ -45,6 +55,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 40006
 
 - name: "Rong Deng"
   photo: no-photo.jpg
@@ -53,6 +65,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 40007
 
 - name: "Eirini Pantiora"
   photo: no-photo.jpg
@@ -61,3 +75,5 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 40008

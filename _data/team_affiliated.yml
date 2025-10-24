@@ -5,6 +5,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 30001
 
 - name: "Ioannis Zerdes"
   photo: no-photo.jpg
@@ -13,6 +15,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 30002
 
 - name: "Andri Papakonstantinou"
   photo: no-photo.jpg
@@ -21,6 +25,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 30003
 
 - name: "Louise Eriksson"
   photo: no-photo.jpg
@@ -29,6 +35,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 30004
 
 - name: "Xingrong Liu"
   photo: no-photo.jpg
@@ -37,6 +45,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 30005
 
 - name: "Emmanouil Sifakis"
   photo: no-photo.jpg
@@ -45,6 +55,8 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 30006
 
 - name: "Susanne Agartz"
   photo: no-photo.jpg
@@ -53,3 +65,5 @@
   number_educ: 2
   education1: Education 1
   education2: Education 2
+  text: 
+  id: 30007
