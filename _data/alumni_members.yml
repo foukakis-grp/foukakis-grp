@@ -1,7 +1,1 @@
-- name: Name
-  photo: no-photo.jpg
-  duration: In the Foukakis Lab 20XX - 20XX, now Project manager at XXX
-  info: What did/do they do?
-  email: email
-  number_educ: 1
-  education1: Education
+- name: Name, Title, XXXX-XXXX
