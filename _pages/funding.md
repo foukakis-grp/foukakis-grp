@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Lab - Funding"
+title: "Foukakis Group - Funding"
 layout: textlay
-excerpt: "Foukakis Lab -- Funding."
+excerpt: "Foukakis Group -- Funding."
 sitemap: false
 permalink: /funding/
 ---

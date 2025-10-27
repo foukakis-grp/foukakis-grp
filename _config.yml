@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Theo Foukakis Lab
+title: Theo Foukakis Group
 email: theodoros.foukakis@ki.se
 description: > # this means to ignore newlines until "baseurl:"
-  Website of the Foukakis Lab at Karolinska Institutet, Oncology-Pathology, Stockholm, Sweden.
+  Website of the Foukakis Group at Karolinska Institutet, Oncology-Pathology, Stockholm, Sweden.
 baseurl: ""
 url: ""
 

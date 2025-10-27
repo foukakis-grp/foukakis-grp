@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Lab - Home"
+title: "Foukakis Group - Home"
 layout: homelay
-excerpt: "Foukakis Lab -- Home"
+excerpt: "Foukakis Group -- Home"
 sitemap: false
 permalink: /
 ---

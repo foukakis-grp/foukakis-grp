@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Lab - News"
+title: "Foukakis Group - News"
 layout: textlay
-excerpt: "Foukakis Lab -- News"
+excerpt: "Foukakis Group -- News"
 sitemap: false
 permalink: /allnews.html
 ---

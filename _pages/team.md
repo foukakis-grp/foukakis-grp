@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Lab - Team"
+title: "Foukakis Group - Team"
 layout: gridlay
-excerpt: "Foukakis Lab -- Team"
+excerpt: "Foukakis Group -- Team"
 sitemap: false
 permalink: /team/
 ---
