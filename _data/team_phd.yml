@@ -1,6 +1,6 @@
 - name: "Caroline Boman"
   photo: no-photo.jpg
-  info: PhD Student
+  info: MD
   email: caroline.boman@ki.se
   number_educ: 2
   education1: Education 1
@@ -10,7 +10,7 @@
 
 - name: "Kang Wang"
   photo: no-photo.jpg
-  info: PhD Student
+  info: MD
   email: kang.wang@ki.se
   number_educ: 2
   education1: Education 1
@@ -20,7 +20,7 @@
 
 - name: "Evangelos Tzoras"
   photo: no-photo.jpg
-  info: PhD Student
+  info: MD
   email: evangelos.tzoras@ki.se
   number_educ: 2
   education1: Education 1
@@ -30,7 +30,7 @@
 
 - name: "Dimitrios Salgkamis"
   photo: no-photo.jpg
-  info: PhD Student
+  info: MMedSc
   email: dimitrios.salgkamis@ki.se
   number_educ: 2
   education1: Education 1
@@ -40,7 +40,7 @@
 
 - name: "Nikos Tsiknakis"
   photo: no-photo.jpg
-  info: PhD Student
+  info: MEng
   email: nikolaos.tsiknakis@ki.se
   number_educ: 2
   education1: Education 1
@@ -50,7 +50,7 @@
 
 - name: "Maria Angeliki Toli"
   photo: no-photo.jpg
-  info: PhD Student
+  info: MD
   email: maria.angeliki.toli@ki.se
   number_educ: 2
   education1: Education 1
@@ -60,7 +60,7 @@
 
 - name: "Behnaz Binicy"
   photo: no-photo.jpg
-  info: PhD Student
+  info: MD
   email: behnaz.khalilzadehbinicy@ki.se
   number_educ: 2
   education1: Education 1
@@ -70,11 +70,10 @@
 
 - name: "Emilia Morales"
   photo: no-photo.jpg
-  info: PhD Student
+  info: MSc, MMedSc
   email: emilia.morales@ki.se
   number_educ: 2
-  education1: Master of Medical Science @ Uppsala University, 2024
-  education2: Master of Translational Medical Research @ Heidelberg University, 2023
-  education3: Bachelor in Biotechnological Processes Engineering @ Universidad San Francisco de Quito, 2020
-  text: 
+  education1: 
+  education2: 
+  text: "Emilia is a first-year PhD student working in bioinformatics, where she applies multi-omics and innovative spatial transcriptomics approaches to unravel the biology of breast cancer. She holds a degree in Biotechnological Processes Engineering from Universidad San Francisco de Quito (Ecuador). Her early work focused on regenerative medicine using mitochondria, and for her undergraduate thesis, she developed a technique to slow down tumor progression through the transfer of modified mitochondria, sparking her lasting interest in breast cancer research. Emilia later received an Erasmus Mundus scholarship for the double degree International Master in Innovative Medicine (IMIM), earning a Master’s in Translational Medical Research from Heidelberg University (Germany) and a Master’s in Medical Sciences from Uppsala University (Sweden). She joined our group in January 2024 for her graduate thesis work and has been part of the team ever since."
   id: 50008

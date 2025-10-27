@@ -1,6 +1,6 @@
 - name: "Alexios Matikas"
   photo: no-photo.jpg
-  info: Associate Professor / Affiliated to Research
+  info: MD, PhD, Senior Consultant, Associate Professor
   email: alexios.matikas@ki.se
   number_educ: 2
   education1: Education 1
@@ -10,7 +10,7 @@
 
 - name: "Ioannis Zerdes"
   photo: no-photo.jpg
-  info: Associate Professor / Affiliated to Research
+  info: MD, PhD, Associate Professor
   email: ioannis.zerdes@ki.se
   number_educ: 2
   education1: Education 1
@@ -20,7 +20,7 @@
 
 - name: "Andri Papakonstantinou"
   photo: no-photo.jpg
-  info: Affiliated to Research
+  info: MD, PhD, Senior Consultant
   email: andri.papakonstantinou@ki.se
   number_educ: 2
   education1: Education 1
@@ -30,7 +30,7 @@
 
 - name: "Louise Eriksson"
   photo: no-photo.jpg
-  info: Affiliated to Research
+  info: MD, PhD
   email: louise.eriksson@ki.se
   number_educ: 2
   education1: Education 1
@@ -40,7 +40,7 @@
 
 - name: "Xingrong Liu"
   photo: no-photo.jpg
-  info: Statistician
+  info: PhD
   email: xingrong.liu@ki.se
   number_educ: 2
   education1: Education 1
@@ -50,7 +50,7 @@
 
 - name: "Emmanouil Sifakis"
   photo: no-photo.jpg
-  info: Bioinformatician
+  info: PhD
   email: emmanouil.sifakis@ki.se
   number_educ: 2
   education1: Education 1

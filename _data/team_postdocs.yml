@@ -1,6 +1,6 @@
 - name: "Georgios Manikis"
   photo: no-photo.jpg
-  info: Postdoctoral Studies
+  info: MSc, PhD
   email: georgios.manikis@ki.se
   number_educ: 2
   education1: Education 1
@@ -10,7 +10,7 @@
 
 - name: "Michail Sarafidis"
   photo: no-photo.jpg
-  info: Postdoctoral Studies
+  info: MSc, PhD
   email: michail.sarafidis@ki.se
   number_educ: 2
   education1: Education 1
@@ -20,7 +20,7 @@
 
 - name: "Konstantinos Georgiadis"
   photo: no-photo.jpg
-  info: Postdoctoral Studies
+  info: MD, PhD
   email: konstantinos.georgiadis@ki.se
   number_educ: 2
   education1: Education 1
@@ -30,7 +30,7 @@
 
 - name: "Sen Li"
   photo: no-photo.jpg
-  info: Postdoctoral Studies
+  info: PhD
   email: sen.li@ki.se
   number_educ: 2
   education1: Education 1
@@ -40,7 +40,7 @@
 
 - name: "Panagiotis Filis"
   photo: no-photo.jpg
-  info: Postdoctoral Studies
+  info: MD, MSc, PhD
   email: panagiotis.filis@ki.se
   number_educ: 2
   education1: Education 1
@@ -50,7 +50,7 @@
 
 - name: "Kerstin Wimmer"
   photo: no-photo.jpg
-  info: Postdoctoral Studies
+  info: MD, PhD
   email: kerstin.wimmer@ki.se
   number_educ: 2
   education1: Education 1
@@ -60,7 +60,7 @@
 
 - name: "Rong Deng"
   photo: no-photo.jpg
-  info: Postdoctoral Studies
+  info: MSc, PhD
   email: rong.deng@ki.se
   number_educ: 2
   education1: Education 1
@@ -70,7 +70,7 @@
 
 - name: "Eirini Pantiora"
   photo: no-photo.jpg
-  info: Postdoctoral Studies
+  info: MD, PhD
   email: eirini.pantiora@ki.se
   number_educ: 2
   education1: Education 1
