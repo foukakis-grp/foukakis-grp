@@ -8,7 +8,13 @@ permalink: /team/
 
 # Group Members
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+Meet the people behind the Foukakis Group! 
+
+We’re a team of researchers, students, and collaborators who work together to explore new ideas and push our projects forward.  
+
+Click on each member’s name to learn more about their background, research interests, and what they’re working on.
+
+<!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
 
 Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [Postdocs](#postdocs), [PhD Students](#phd-students), [Master and Bachelor Students](#master-and-bachelor-students), [Admins](#administration), [Alumni](#alumni).
@@ -26,7 +32,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
@@ -93,7 +99,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-affiliated">{{ member.name }}</a></h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -154,7 +160,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-postdoc">{{ member.name }}</a></h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -215,7 +221,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-phd">{{ member.name }}</a></h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -276,7 +282,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-student">{{ member.name }}</a></h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -337,7 +343,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-admin">{{ member.name }}</a></h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -388,29 +394,66 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 ## Alumni
 <div class="row">
 
-<div class="col-sm-4 clearfix">
-<h4>Researchers</h4>
+### Former PhDs and PostDocs
+{% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
-{{ member.name }}
-{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <h4>{{ member.name }}</h4>
+  
+  <i>{{ member.date }}</i>
+
+  <i>Role: {{ member.role }}</i>
+
+  <a href="{{ member.url }}" target="_blank" rel="noopener noreferrer">{{ member.url }}</a>
 </div>
 
-<div class="col-sm-4 clearfix">
-<h4>BSc & MSc students</h4>
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+<h4>Former MSc students</h4>
 {% for member in site.data.alumni_msc %}
-{{ member.name }}
+<i>{{ member.name }}</i>,&nbsp; <i>{{ member.role }}</i>,&nbsp; <i>{{ member.date }}</i> &nbsp;-&nbsp; {% if member.thesis_url %}
+    <i><a href="{{ member.thesis_url }}" target="_blank" rel="noopener noreferrer">“{{ member.thesis }}”</a></i>
+  {% else %}
+    <i>“{{ member.thesis }}”</i>
+  {% endif %}
 {% endfor %}
-{% for member in site.data.alumni_bsc %}
-{{ member.name }}
-{% endfor %}
-</div>
 
-<div class="col-sm-4 clearfix">
+<h4>Former BSc students</h4>
+{% for member in site.data.alumni_bsc %}
+<i>{{ member.name }}</i>,&nbsp; <i>{{ member.role }}</i>,&nbsp; <i>{{ member.date }}</i> &nbsp;-&nbsp; {% if member.thesis_url %}
+    <i><a href="{{ member.thesis_url }}" target="_blank" rel="noopener noreferrer">“{{ member.thesis }}”</a></i>
+  {% else %}
+    <i>“{{ member.thesis }}”</i>
+  {% endif %}
+{% endfor %}
+
 <h4>Visitors</h4>
 {% for member in site.data.alumni_visitors %}
-{{ member.name }}
+<i>{{ member.name }}</i>,&nbsp; <i>{{ member.role }}</i>,&nbsp; <i>{{ member.date }}</i> &nbsp;-&nbsp; {% if member.thesis_url %}
+    <i><a href="{{ member.thesis_url }}" target="_blank" rel="noopener noreferrer">“{{ member.thesis }}”</a></i>
+  {% else %}
+    <i>“{{ member.thesis }}”</i>
+  {% endif %}
 {% endfor %}
-</div>
 
 </div>
 

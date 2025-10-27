@@ -1,1 +1,5 @@
-- name: Name, Spring 2015
+- name: Name
+  date: Spring 2023
+  role: MSc Student
+  thesis: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  thesis_url:
