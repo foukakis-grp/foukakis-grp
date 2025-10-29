@@ -123,3 +123,15 @@ firstp {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Social icons */
+.social-links {
+  display: flex;
+  flex-wrap: nowrap; /* keep everything on a single line */
+  gap: 6px;          /* modern way to add spacing */
+  align-items: center;
+}
+.social-links a {
+  text-decoration: none;
+  color: inherit;
+}
