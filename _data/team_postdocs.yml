@@ -2,7 +2,7 @@
   photo: no-photo.jpg
   info: MSc, PhD
   email: georgios.manikis@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -10,19 +10,26 @@
 
 - name: "Michail Sarafidis"
   photo: no-photo.jpg
-  info: MSc, PhD
+  info: MEng, PhD
   email: michail.sarafidis@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: Michail Sarafidis is a postdoctoral research fellow at Karolinska Institutet in the Theodoros Foukakis Group since 2023. He works as a bioinformatician and data analyst on translational breast cancer studies. His research involves transcriptomics, genomics, multi-omics integration, machine learning, and data mining. He holds a Ph.D. in Electrical and Computer Engineering with a specialization in Bioinformatics from the Biomedical Engineering Laboratory, National Technical University of Athens (NTUA), Greece. His doctoral work focused on molecular biomarker discovery in urinary bladder cancer. Before joining Karolinska Institutet, he worked as a junior researcher at the Institute of Communication and Computer Systems (ICCS), NTUA, contributing to national and international research projects. His expertise spans Bioinformatics, Health and Medical Informatics, and Health Data Science, with extensive experience in academic research, EU-funded projects, teaching, and course coordination. Michail also holds a Diploma (M.Eng.) in Electrical and Computer Engineering from NTUA, enabling him to apply engineering principles to biomedical research.
   id: 40002
+  orcid_id: 
+  website: https://linktr.ee/MichailSarafidis
+  scholar_userid: 
+  research_gate_profile: Michail-Sarafidis-2
+  linkedin_username: michail-sarafidis
+  x_username: 
+  github_username: 
 
 - name: "Konstantinos Georgiadis"
   photo: no-photo.jpg
   info: MD, PhD
   email: konstantinos.georgiadis@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -32,7 +39,7 @@
   photo: no-photo.jpg
   info: PhD
   email: sen.li@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -42,7 +49,7 @@
   photo: no-photo.jpg
   info: MD, MSc, PhD
   email: panagiotis.filis@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -52,7 +59,7 @@
   photo: no-photo.jpg
   info: MD, PhD
   email: kerstin.wimmer@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -62,7 +69,7 @@
   photo: no-photo.jpg
   info: MSc, PhD
   email: rong.deng@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -72,7 +79,7 @@
   photo: no-photo.jpg
   info: MD, PhD
   email: eirini.pantiora@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 

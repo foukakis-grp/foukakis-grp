@@ -1,8 +1,18 @@
+- name: "Jonas Bergh"
+  photo: no-photo.jpg
+  info: MD, PhD, Professor
+  email: jonas.bergh@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: 
+  id: 30000
+
 - name: "Alexios Matikas"
   photo: no-photo.jpg
-  info: MD, PhD, Senior Consultant, Associate Professor
+  info: MD, PhD, Associate Professor
   email: alexios.matikas@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -12,7 +22,7 @@
   photo: no-photo.jpg
   info: MD, PhD, Associate Professor
   email: ioannis.zerdes@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -20,9 +30,9 @@
 
 - name: "Andri Papakonstantinou"
   photo: no-photo.jpg
-  info: MD, PhD, Senior Consultant
+  info: MD, PhD
   email: andri.papakonstantinou@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -32,27 +42,41 @@
   photo: no-photo.jpg
   info: MD, PhD
   email: louise.eriksson@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
   id: 30004
+  orcid_id: 
+  website: 
+  scholar_userid: 
+  research_gate_profile: 
+  linkedin_username: 
+  x_username: 
+  github_username: 
 
 - name: "Xingrong Liu"
-  photo: no-photo.jpg
-  info: PhD
+  photo: Xingrong.JPG
+  info: PhD - Biostatistician
   email: xingrong.liu@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: Xingrong joined our group as a biostatistician in September 2023. He works closely with clinicians and researchers to design studies, manage data, and perform statistical analyses in breast cancer research. Xingrong also supports PhD students, postdocs, and colleagues in applying advanced statistical methods and conducting real-world evidence studies. Before joining the group, he gained research experience in genome-wide association studies of gastrointestinal disease and in registry-based perinatal epidemiology. With an educational background in computational mathematics and mathematical statistics, he earned his Ph.D. in 2017 from the Department of Medical Epidemiology and Biostatistics at Karolinska Institutet, where his doctoral thesis focused on developing and implementing statistical methods for survival analysis. Outside of research, Xingrong enjoys cooking and trying out new recipes. According to his own data, his body weight follows a predictable seasonal pattern- a winter increase followed by a carefully managed summer decrease.
   id: 30005
+  orcid_id: 
+  website: https://hdl.handle.net/10616/46039
+  scholar_userid: 
+  research_gate_profile: 
+  linkedin_username: 
+  x_username: 
+  github_username: 
 
 - name: "Emmanouil Sifakis"
   photo: no-photo.jpg
-  info: PhD
+  info: PhD - Bioinformatician
   email: emmanouil.sifakis@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 
@@ -62,7 +86,7 @@
   photo: no-photo.jpg
   info: Laboratory Engineer
   email: susanne.agartz@ki.se
-  number_educ: 2
+  number_educ: 0
   education1: Education 1
   education2: Education 2
   text: 

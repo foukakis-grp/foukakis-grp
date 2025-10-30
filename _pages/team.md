@@ -97,35 +97,40 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-affiliated">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
+  
+  <div class="social-links">
+  {% if member.email %}
+  <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
+  {% if member.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  {% endif %}
+  {% if member.research_gate_profile %}
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  {% endif %}
+  {% if member.x_username %}
+  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  {% endif %}
+  {% if member.github_username %}
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  </div>
 
-  </ul>
-
-  <div class="collapse" id="{{member.id}}-affiliated" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -158,35 +163,40 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-postdoc">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
+  
+  <div class="social-links">
+  {% if member.email %}
+  <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
+  {% if member.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  {% endif %}
+  {% if member.research_gate_profile %}
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  {% endif %}
+  {% if member.x_username %}
+  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  {% endif %}
+  {% if member.github_username %}
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  </div>
 
-  </ul>
-
-  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -219,35 +229,40 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-phd">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
   
-  <div class="collapse" id="{{member.id}}-phd" style="text-align: left;">
+  <div class="social-links">
+  {% if member.email %}
+  <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+  {% endif %}
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+  {% endif %}
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+  {% endif %}
+  {% if member.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  {% endif %}
+  {% if member.research_gate_profile %}
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  {% endif %}
+  {% if member.x_username %}
+  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  {% endif %}
+  {% if member.github_username %}
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  </div>
+
+  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -280,35 +295,40 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-student">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
+  
+  <div class="social-links">
+  {% if member.email %}
+  <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
+  {% if member.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  {% endif %}
+  {% if member.research_gate_profile %}
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  {% endif %}
+  {% if member.x_username %}
+  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  {% endif %}
+  {% if member.github_username %}
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  </div>
 
-  </ul>
-
-  <div class="collapse" id="{{member.id}}-student" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -341,35 +361,40 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-admin">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i> <!-- <i><br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
+  
+  <div class="social-links">
+  {% if member.email %}
+  <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
   {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
+  {% if member.orcid_id %}
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
+  {% if member.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  {% endif %}
+  {% if member.research_gate_profile %}
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  {% endif %}
+  {% if member.x_username %}
+  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  {% endif %}
+  {% if member.github_username %}
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  </div>
 
-  </ul>
-
-  <div class="collapse" id="{{member.id}}-admin" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
