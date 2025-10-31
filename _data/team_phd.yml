@@ -42,14 +42,21 @@
   id: 50004
 
 - name: "Nikos Tsiknakis"
-  photo: no-photo.jpg
+  photo: Nikos.jpeg
   info: MEng
   email: nikolaos.tsiknakis@ki.se
   number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: Nikos is a PhD student in the Foukakis Lab, where he focuses on artificial intelligence and image analysis methods to study breast cancer. His work aims to identify and validate novel biomarkers that support personalized and precision medicine. He earned his Master’s degree in Electrical and Computer Engineering from the University of Patras (Greece) in 2019. Before joining the Foukakis Lab, Nikos worked as a research assistant at the Computational Biomedicine Lab of the Institute of Computer Science, Foundation for Research and Technology – Hellas. There, he contributed to several national and European research projects involving image processing, data integration, and deep/machine learning applications in medicine. His research interests center on AI-driven approaches for translational research, biomarker discovery, and multimodal data integration. He is also particularly interested in validation studies that assess the reliability, trustworthiness, clinical utility, and comparative performance of AI methods in biomedical contexts.
   id: 50005
+  orcid_id: 0000-0002-7581-467X
+  website: https://tsik.me
+  scholar_userid: vWYykXgAAAAJ
+  research_gate_profile: Nikos-Tsiknakis
+  linkedin_username: tsiknakisn
+  x_username: 
+  github_username: tsikup
 
 - name: "Maria Angeliki Toli"
   photo: no-photo.jpg
