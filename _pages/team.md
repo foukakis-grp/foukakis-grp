@@ -433,10 +433,10 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <h4>Former MSc students</h4>
 {% for member in site.data.alumni_msc %}
-<i>{{ member.name }}</i>,&nbsp; <i>{{ member.role }}</i>,&nbsp; <i>{{ member.date }}</i> &nbsp;-&nbsp; {% if member.thesis_url %}
+<i>{{ member.name }}</i>,&nbsp; <i>{{ member.role }}</i>,&nbsp; <i>{{ member.date }}</i> &nbsp;&nbsp; {% if member.thesis_url %}
     <i><a href="{{ member.thesis_url }}" target="_blank" rel="noopener noreferrer">“{{ member.thesis }}”</a></i>
   {% else %}
-    <i>“{{ member.thesis }}”</i>
+    <i>{{ member.thesis }}</i>
   {% endif %}
 {% endfor %}
 

@@ -9,14 +9,16 @@
   id: 50001
 
 - name: "Kang Wang"
-  photo: no-photo.jpg
-  info: MD
+  photo: Kang.jpg
+  info: MD, MSc
   email: kang.wang@ki.se
   number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: Kang is a fifth-year PhD student specializing in bioinformatics, with a focus on discovering novel multi-omics biomarkers associated with breast cancer treatment response. He holds a medical degree in general surgery from China and joined the group in October 2020 to pursue his doctoral studies.
   id: 50002
+  scholar_userid: pa1mMeQAAAAJ&hl=en
+  linkedin_username: kang-wang-371887212/
 
 - name: "Evangelos Tzoras"
   photo: Evangelos.jpg
