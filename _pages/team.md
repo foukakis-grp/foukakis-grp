@@ -8,14 +8,11 @@ permalink: /team/
 
 # Group Members
 
-Meet the people behind the Foukakis Group! 
-
-We’re a team of researchers, students, and collaborators who work together to explore new ideas and push our projects forward.  
+Meet the people behind the Foukakis Group! We’re a team of researchers, students, and collaborators who work together to explore new ideas and push our projects forward.  
 
 Click on each member’s name to learn more about their background, research interests, and what they’re working on.
 
 <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
-
 
 Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [Postdocs](#postdocs), [PhD Students](#phd-students), [Master and Bachelor Students](#master-and-bachelor-students), [Admins](#administration), [Alumni](#alumni).
 
@@ -38,29 +35,26 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
-  {% endif %}
   {% if member.website %}
-  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
   {% if member.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i></a>
   {% endif %}
   {% if member.research_gate_profile %}
-  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
   {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.x_username %}
-  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
-  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
   {% endif %}
   </div>
 
@@ -97,40 +91,37 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-affiliated">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
   
   <div class="social-links">
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
-  {% endif %}
   {% if member.website %}
-  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
   {% if member.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i></a>
   {% endif %}
   {% if member.research_gate_profile %}
-  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
   {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.x_username %}
-  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
-  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-affiliated" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -163,40 +154,37 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-postdoc">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
   
   <div class="social-links">
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
-  {% endif %}
   {% if member.website %}
-  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
   {% if member.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i></a>
   {% endif %}
   {% if member.research_gate_profile %}
-  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
   {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.x_username %}
-  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
-  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -229,40 +217,37 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-phd">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
   
   <div class="social-links">
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
-  {% endif %}
   {% if member.website %}
-  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
   {% if member.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i></a>
   {% endif %}
   {% if member.research_gate_profile %}
-  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
   {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.x_username %}
-  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
-  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-phd" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -295,40 +280,37 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-student">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
   
   <div class="social-links">
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
-  {% endif %}
   {% if member.website %}
-  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
   {% if member.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i></a>
   {% endif %}
   {% if member.research_gate_profile %}
-  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
   {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.x_username %}
-  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
-  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-student" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -361,40 +343,37 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
+  <h4><a data-toggle="collapse" href="#{{member.id}}-admin">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
   
   <div class="social-links">
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
-  {% endif %}
   {% if member.website %}
-  <a href="{{ member.website }}" title="Website"><i class="fa fa-globe"></i></a>
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   {% if member.orcid_id %}
-  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+  <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
   {% endif %}
   {% if member.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+  <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar"></i></a>
   {% endif %}
   {% if member.research_gate_profile %}
-  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+  <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
   {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.x_username %}
-  <a href="https://twitter.com/{{ member.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
-  <a href="https://github.com/{{ member.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-admin" style="text-align: left;">
   {{ member.text }}
   </div>
 </div>
@@ -415,7 +394,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 
 
-## Alumni
+<!-- ## Alumni
 <div class="row">
 
 ### Former PhDs and PostDocs
@@ -479,5 +458,5 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
   {% endif %}
 {% endfor %}
 
-</div>
+</div> -->
 
