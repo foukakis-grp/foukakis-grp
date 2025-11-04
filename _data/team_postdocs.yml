@@ -9,7 +9,7 @@
   id: 40001
 
 - name: "Michail Sarafidis"
-  photo: no-photo.jpg
+  photo: Michalis.jpg
   info: MEng, PhD
   email: michail.sarafidis@ki.se
   number_educ: 0
@@ -17,9 +17,9 @@
   education2: Education 2
   text: Michail Sarafidis is a postdoctoral research fellow at Karolinska Institutet in the Theodoros Foukakis Group since 2023. He works as a bioinformatician and data analyst on translational breast cancer studies. His research involves transcriptomics, genomics, multi-omics integration, machine learning, and data mining. He holds a Ph.D. in Electrical and Computer Engineering with a specialization in Bioinformatics from the Biomedical Engineering Laboratory, National Technical University of Athens (NTUA), Greece. His doctoral work focused on molecular biomarker discovery in urinary bladder cancer. Before joining Karolinska Institutet, he worked as a junior researcher at the Institute of Communication and Computer Systems (ICCS), NTUA, contributing to national and international research projects. His expertise spans Bioinformatics, Health and Medical Informatics, and Health Data Science, with extensive experience in academic research, EU-funded projects, teaching, and course coordination. Michail also holds a Diploma (M.Eng.) in Electrical and Computer Engineering from NTUA, enabling him to apply engineering principles to biomedical research.
   id: 40002
-  orcid_id: 
+  orcid_id: 0000-0003-1921-6525
   website: https://linktr.ee/MichailSarafidis
-  scholar_userid: 
+  scholar_userid: by4xhC4AAAAJ
   research_gate_profile: Michail-Sarafidis-2
   linkedin_username: michail-sarafidis
   x_username: 
@@ -46,24 +46,29 @@
   id: 40004
 
 - name: "Panagiotis Filis"
-  photo: no-photo.jpg
+  photo: Panagiotis.jpg
   info: MD, MSc, PhD
   email: panagiotis.filis@ki.se
   number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: Panagiotis has been a Postdoctoral Researcher in the group since April 2025. His research primarily focuses on secondary endpoints in clinical trials, with a particular interest in the quality of life of breast cancer patients. His PhD work encompassed evidence synthesis, epidemiology and clinical data analyses, as well as in vivo research. He holds a medical degree and a master’s in cytogenetics and cytogenetic epidemiology.
   id: 40005
+  scholar_userid: tb1SONAAAAAJ&hl=el
+  research_gate_profile: Panagiotis-Filis-3
 
 - name: "Kerstin Wimmer"
-  photo: no-photo.jpg
-  info: MD, PhD
+  photo: Kerstin.jpg
+  info: Dr.med.univ., Dr.scient.med.
   email: kerstin.wimmer@ki.se
   number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: "Kerstin is a postdoctoral researcher in Theo Foukakis’ team, focusing on biomarker discovery and validation in clinical trials. Her research explores potential biomarkers with prognostic and predictive relevance. She is also involved in evaluating AI-based models for their prognostic and predictive value across different patient cohorts. Kerstin is a general surgeon, specializing on breast surgery, based in Vienna, Austria, and joined the group in May 2025. She holds a medical degree and a PhD-equivalent degree in Applied Medical Sciences. Photo copyright: Medical University Vienna/Matern"
   id: 40006
+  orcid_id: 0000-0001-5484-6229
+  research_gate_profile: Kerstin-Wimmer?ev=hdr_xprf
+  linkedin_username: kerstin-wimmer-999406129
 
 - name: "Rong Deng"
   photo: no-photo.jpg
