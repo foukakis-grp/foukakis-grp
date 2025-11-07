@@ -79,7 +79,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 
 
-## Affiliated to Research
+## Senior Researchers
 {% assign number_printed = 0 %}
 {% for member in site.data.team_affiliated %}
 
