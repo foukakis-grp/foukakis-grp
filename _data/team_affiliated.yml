@@ -38,6 +38,22 @@
   text: 
   id: 30003
 
+- name: "Emmanouil Sifakis"
+  photo: Manos.jpg
+  info: PhD - Bioinformatician
+  email: emmanouil.sifakis@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Emmanouil is a bioinformatician at Karolinska Institutet specializing in translational breast-cancer genomics. His research focuses on reproducible analysis of bulk, spatial, and single-cell transcriptomics (RNA-seq and microarray) and on method development for molecular classification in breast cancer. He holds a PhD and MSc in Biomedical Engineering and a five-year Diploma in Electronic and Computer Engineering.
+  id: 30006
+  orcid_id: 0000-0001-9919-4471
+  website: https://ki.se/en/people/emmanouil-sifakis
+  scholar_userid: UTLiHR4AAAAJ
+  research_gate_profile: Emmanouil-Sifakis
+  linkedin_username: emmanouil-sifakis/
+  github_username: sifakise
+
 - name: "Louise Eriksson"
   photo: no-photo.jpg
   info: MD, PhD
@@ -71,22 +87,6 @@
   linkedin_username: 
   x_username: 
   github_username: 
-
-- name: "Emmanouil Sifakis"
-  photo: Manos.jpg
-  info: PhD - Bioinformatician
-  email: emmanouil.sifakis@ki.se
-  number_educ: 0
-  education1: Education 1
-  education2: Education 2
-  text: Emmanouil is a bioinformatician at Karolinska Institutet specializing in translational breast-cancer genomics. His research focuses on reproducible analysis of bulk, spatial, and single-cell transcriptomics (RNA-seq and microarray) and on method development for molecular classification in breast cancer. He holds a PhD and MSc in Biomedical Engineering and a five-year Diploma in Electronic and Computer Engineering.
-  id: 30006
-  orcid_id: 0000-0001-9919-4471
-  website: https://ki.se/en/people/emmanouil-sifakis
-  scholar_userid: UTLiHR4AAAAJ
-  research_gate_profile: Emmanouil-Sifakis
-  linkedin_username: emmanouil-sifakis/
-  github_username: sifakise
 
 - name: "Susanne Agartz"
   photo: no-photo.jpg
