@@ -1,14 +1,14 @@
 ---
-title: "Foukakis Group - Team"
+title: "Foukakis Lab - Team"
 layout: gridlay
-excerpt: "Foukakis Group -- Team"
+excerpt: "Foukakis Lab -- Team"
 sitemap: false
 permalink: /team/
 ---
 
 # Group Members
 
-Meet the people behind the Foukakis Group! We’re a team of researchers, students, and collaborators who work together to explore new ideas and push our projects forward.  
+Meet the people behind the Foukakis Lab! We’re a team of researchers, students, and collaborators who work together to explore new ideas and push our projects forward.  
 
 Click on each member’s name to learn more about their background, research interests, and what they’re working on.
 

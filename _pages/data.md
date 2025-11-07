@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Group - Datasets"
+title: "Foukakis Lab - Datasets"
 layout: textlay
-excerpt: "Foukakis Group -- Datasets"
+excerpt: "Foukakis Lab -- Datasets"
 sitemap: false
 permalink: /data/
 ---

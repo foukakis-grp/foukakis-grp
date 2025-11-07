@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Group - Projects"
+title: "Foukakis Lab - Projects"
 layout: textlay
-excerpt: "Foukakis Group -- Projects"
+excerpt: "Foukakis Lab -- Projects"
 sitemap: false
 permalink: /allprojects.html
 ---

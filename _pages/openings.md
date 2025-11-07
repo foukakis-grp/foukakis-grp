@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Group - Vacancies"
+title: "Foukakis Lab - Vacancies"
 layout: textlay
-excerpt: "Foukakis Group -- Vacancies"
+excerpt: "Foukakis Lab -- Vacancies"
 sitemap: false
 permalink: /vacancies
 ---

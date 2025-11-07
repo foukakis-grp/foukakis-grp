@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Group - Pictures"
+title: "Foukakis Lab - Pictures"
 layout: piclay
-excerpt: "Foukakis Group -- Pictures"
+excerpt: "Foukakis Lab -- Pictures"
 permalink: /pictures/
 ---
 

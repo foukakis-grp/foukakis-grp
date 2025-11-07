@@ -1,7 +1,7 @@
 ---
-title: "Foukakis Group - Research"
+title: "Foukakis Lab - Research"
 layout: gridlay
-excerpt: "Foukakis Group -- Research"
+excerpt: "Foukakis Lab -- Research"
 sitemap: false
 tags: [10001, 10002,10003]
 permalink: /research/
