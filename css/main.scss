@@ -135,3 +135,24 @@ firstp {
   text-decoration: none;
   color: inherit;
 }
+
+.alumni-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  font-size: inherit;
+  font-weight: 600;
+  margin: 0.4rem 0 0.1rem 0;
+}
+.alumni-heading-social {
+  display: flex;
+  align-items: center;
+}
+.alumni-section {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.alumni-block p {
+  margin: 0;
+}

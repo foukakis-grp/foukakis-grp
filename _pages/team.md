@@ -26,7 +26,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 clearfix alumni-block">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
@@ -393,11 +393,11 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 
 
 
+ 
+<div class="alumni-section" id="alumni">
+<h2>Alumni</h2>
 
-<!-- ## Alumni
-<div class="row">
-
-### Former PhDs and PostDocs
+<h4>PhDs and PostDocs</h4>
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
 
@@ -407,15 +407,20 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+<div class="col-sm-6 clearfix alumni-block">
+<h4 class="alumni-heading">
+  <span>{{ member.name }}</span>
+  {% if member.linkedin_username %}
+  <span class="alumni-heading-social">
+    <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+  </span>
+  {% endif %}
+</h4>
+
+  <i>{{ member.role }}, {{  member.date }}</i>
+
+  Current position: {{ member.position_now }}
   
-  <i>{{ member.date }}</i>
-
-  <i>Role: {{ member.role }}</i>
-
-  <a href="{{ member.url }}" target="_blank" rel="noopener noreferrer">{{ member.url }}</a>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -431,15 +436,16 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 </div>
 {% endif %}
 
-<h4>Former MSc students</h4>
+<h4>MSc and BSc students</h4>
 {% for member in site.data.alumni_msc %}
-<i>{{ member.name }}</i>,&nbsp; <i>{{ member.role }}</i>,&nbsp; <i>{{ member.date }}</i> &nbsp;&nbsp; {% if member.thesis_url %}
+<b>{{ member.name }}</b>,&nbsp; <i>{{ member.role }}</i>,&nbsp; <i>{{ member.date }}</i> &nbsp;&nbsp; {% if member.thesis_url %}
     <i><a href="{{ member.thesis_url }}" target="_blank" rel="noopener noreferrer">“{{ member.thesis }}”</a></i>
   {% else %}
     <i>{{ member.thesis }}</i>
   {% endif %}
 {% endfor %}
 
+<!--
 <h4>Former BSc students</h4>
 {% for member in site.data.alumni_bsc %}
 <i>{{ member.name }}</i>,&nbsp; <i>{{ member.role }}</i>,&nbsp; <i>{{ member.date }}</i> &nbsp;-&nbsp; {% if member.thesis_url %}
@@ -457,6 +463,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
     <i>“{{ member.thesis }}”</i>
   {% endif %}
 {% endfor %}
+-->
 
-</div> -->
-
+</div>
+ 
