@@ -156,3 +156,24 @@ firstp {
 .alumni-block p {
   margin: 0;
 }
+.alumni-block p + p {
+  margin-top: 0.15rem;
+}
+
+.news-archive-entry {
+  margin-bottom: 1.5rem;
+}
+.news-archive-date {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.news-archive-body {
+  margin-bottom: 0.3rem;
+}
+.news-archive img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.5rem auto;
+}
