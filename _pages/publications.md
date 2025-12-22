@@ -57,7 +57,6 @@ permalink: /publications/
 
 ## Full List of publications
 
-### Published -->
 <div class="publications">
 
 {%- for y in page.years %}
