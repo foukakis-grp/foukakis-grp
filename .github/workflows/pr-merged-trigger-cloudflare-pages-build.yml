@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Call Cloudflare Pages deploy hook
         run: |
-          curl -d "" "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/9350cd01-c88a-47ab-9bec-4a30096bbd03"
+          curl -d "" "${{ secrets.DEPLOY_HOOK }}"
