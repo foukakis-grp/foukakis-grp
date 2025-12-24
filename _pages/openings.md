@@ -12,13 +12,13 @@ permalink: /vacancies
 
 You will have the chance to work on the grand challenges of breast cancer translational research on swedish and international breast cancer data on topics such as:
 
-    - Quantitative IHC, spatial in situ analysis at protein level (eg multiplex IHC/IF), or RNA level (spatial transcriptomics)
-    - Bioinformatics (bulk omics, single cell omics, spatial in situ omics)
-    - Digital Pathology and Image Processing
-    - Artificial Intelligence and Multimodal Integration
-    - Registry-based studies
-    - Meta-analyses
-    - and much more...
+- Quantitative IHC, spatial in situ analysis at protein level (eg multiplex IHC/IF), or RNA level (spatial transcriptomics)
+- Bioinformatics (bulk omics, single cell omics, spatial in situ omics)
+- Digital Pathology and Image Processing
+- Artificial Intelligence and Multimodal Integration
+- Registry-based studies
+- Meta-analyses
+- and much more...
 
 You will play an active role in shaping research questions, developing and optimizing experimental and analytical methods, generating high-quality data, and driving novel discoveries in breast cancer translational research.
 

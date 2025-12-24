@@ -8,11 +8,18 @@ permalink: /research/
 ---
 
 # Our Research
-<img src="{{ site.url }}{{ site.baseurl }}/favicon.ico" class="img-responsive" width="15%" style="float: left"/>
+Our projects span the translational spectrum — from patient care to molecular discovery and computational innovation — all centered around improving outcomes for individuals with breast cancer. By combining clinical insights with data-driven methodologies, we explore how tumors evolve, resist treatment, and respond to new therapeutic strategies.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+Current Research Areas:
+- **Treatment resistance mechanisms:** Investigating how tumors adapt to endocrine and targeted therapies at the molecular and cellular levels.
+- **Biomarker discovery and validation:** Identifying molecular signatures that can predict treatment response, relapse risk, or long-term outcome.
+- **Liquid biopsy and minimal residual disease:** Developing methods for detecting circulating tumor DNA and other biomarkers to monitor disease non-invasively.
+- **Digital and spatial pathology:** Leveraging spatial transcriptomics, multiplex imaging, and deep learning to map the tumor microenvironment and its prognostic impact.
+- **AI and precision oncology:** Integrating genomics, imaging, and clinical data using artificial intelligence to guide personalized treatment strategies.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+Each project is shaped by collaboration — across disciplines within the lab and with external partners in academia, healthcare, and industry. Together, we aim to translate biological understanding into real-world clinical benefit.
+
+To learn more about our ongoing projects or to explore collaborative opportunities, please get in touch with us. We welcome new ideas, partnerships, and perspectives that can drive innovation in breast cancer research.
 
 
 ## Selected research themes
@@ -36,7 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volut
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   <p>{{ theme-item.description }}</p>
-  <p>Team members: <em>{{ theme-item.authors }}</em></p>
+  <p><b>Team members:</b> <em>{{ theme-item.authors }}</em></p>
   <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
   <p> {{ theme-item.news2 }}</p>
   <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
@@ -57,8 +64,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volut
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
-  {{ theme-item.description }}
-  <p>Team members: <em>{{ theme-item.authors }}</em></p>
+  <p>{{ theme-item.description }}</p>
+  <p><b>Team members:</b> <em>{{ theme-item.authors }}</em></p>
   <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
   <p> {{ theme-item.news2 }}</p>
   <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>

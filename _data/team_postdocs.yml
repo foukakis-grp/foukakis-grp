@@ -1,0 +1,96 @@
+- name: "Georgios Manikis"
+  photo: no-photo.jpg
+  info: MSc, PhD
+  email: georgios.manikis@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: 
+  id: 40001
+
+- name: "Michail Sarafidis"
+  photo: Michalis.jpg
+  info: MEng, PhD
+  email: michail.sarafidis@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Michail Sarafidis is a postdoctoral research fellow at Karolinska Institutet in the Theodoros Foukakis Group since 2023. He works as a bioinformatician and data analyst on translational breast cancer studies. His research involves transcriptomics, genomics, multi-omics integration, machine learning, and data mining. He holds a Ph.D. in Electrical and Computer Engineering with a specialization in Bioinformatics from the Biomedical Engineering Laboratory, National Technical University of Athens (NTUA), Greece. His doctoral work focused on molecular biomarker discovery in urinary bladder cancer. Before joining Karolinska Institutet, he worked as a junior researcher at the Institute of Communication and Computer Systems (ICCS), NTUA, contributing to national and international research projects. His expertise spans Bioinformatics, Health and Medical Informatics, and Health Data Science, with extensive experience in academic research, EU-funded projects, teaching, and course coordination. Michail also holds a Diploma (M.Eng.) in Electrical and Computer Engineering from NTUA, enabling him to apply engineering principles to biomedical research.
+  id: 40002
+  orcid_id: 0000-0003-1921-6525
+  website: https://linktr.ee/MichailSarafidis
+  scholar_userid: by4xhC4AAAAJ
+  research_gate_profile: Michail-Sarafidis-2
+  linkedin_username: michail-sarafidis
+  x_username: 
+  github_username: 
+
+- name: "Konstantinos Georgiadis"
+  photo: no-photo.jpg
+  info: MD, PhD
+  email: konstantinos.georgiadis@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: 
+  id: 40003
+
+- name: "Sen Li"
+  photo: Sen.jpg
+  info: PhD
+  email: sen.li@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: "Sen joined our group in February 2024 as a bioinformatics postdoctoral researcher jointly affiliated with our team and Nicola Crosetto's group at SciLifeLab. His current research focuses on applying multi-omics approaches to study clonal dynamics and treatment resistance mechanisms in breast cancer. He holds a PhD in Bioinformatics and has an academic background in Ecology. Before joining our group, Sen worked on the speciation and evolutionary genomics of mangroves, exploring how species adapt to changing environments. Sen is broadly interested in how organisms—and individual cells—respond to macro- and micro-environmental changes. He is passionate about using computational and multi-omics tools to uncover the biological stories behind complex systems."
+  id: 40004
+  linkedin_username: sen-li-22567b397
+  orcid_id: 0000-0001-5657-1599
+
+- name: "Panagiotis Filis"
+  photo: Panagiotis.jpg
+  info: MD, MSc, PhD
+  email: panagiotis.filis@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Panagiotis has been a Postdoctoral Researcher in the group since April 2025. His research primarily focuses on secondary endpoints in clinical trials, with a particular interest in the quality of life of breast cancer patients. His PhD work encompassed evidence synthesis, epidemiology and clinical data analyses, as well as in vivo research. He holds a medical degree and a master’s in cytogenetics and cytogenetic epidemiology.
+  id: 40005
+  scholar_userid: tb1SONAAAAAJ&hl=el
+  research_gate_profile: Panagiotis-Filis-3
+
+- name: "Kerstin Wimmer"
+  photo: Kerstin.jpg
+  info: Dr.med.univ., Dr.scient.med.
+  email: kerstin.wimmer@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: "Kerstin is a postdoctoral researcher in Theo Foukakis’ team, focusing on biomarker discovery and validation in clinical trials. Her research explores potential biomarkers with prognostic and predictive relevance. She is also involved in evaluating AI-based models for their prognostic and predictive value across different patient cohorts. Kerstin is a general surgeon, specializing on breast surgery, based in Vienna, Austria, and joined the group in May 2025. She holds a medical degree and a PhD-equivalent degree in Applied Medical Sciences. Photo copyright: Medical University Vienna/Matern"
+  id: 40006
+  orcid_id: 0000-0001-5484-6229
+  research_gate_profile: Kerstin-Wimmer?ev=hdr_xprf
+  linkedin_username: kerstin-wimmer-999406129
+
+- name: "Rong Deng"
+  photo: Rong.jpg
+  info: PhD
+  email: rong.deng@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Rong Deng joined the group in 2025 as a postdoc focusing on breast cancer immunology. Her research explores the immune mechanisms within the tumor microenvironment, with a particular interest in T-cell phenotyping and functional characterization using advanced flow cytometry. She obtained her PhD in China. Rong is passionate about understanding how immune regulation shapes cancer progression and how these insights can contribute to novel therapeutic strategies.
+  id: 40007
+  linkedin_username: rong-deng-ab6b8323b
+  research_gate_profile: Rong-Deng?ev=hdr_xprf
+  x_username: rongdeng88?s=21
+
+- name: "Eirini Pantiora"
+  photo: Eirini.jpg
+  info: MD, PhD, FEBS
+  email: eirini.pantiora@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Eirini is a Consultant Breast Surgeon at Akademiska University Hospital. She holds a PhD focused on magnetic techniques in breast cancer surgery and is a Fellow of the European Board of Surgery in Breast Surgery (FEBS-Breast). In October 2025, she joined the group to continue her postdoctoral research in breast cancer focusing on advancing precision and patient-centered techniques in breast cancer surgery.
+  id: 40008

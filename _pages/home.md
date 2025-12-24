@@ -49,7 +49,7 @@ We are located at Bioclinicum, Karolinska Institutet, Solna, at the heart of the
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ki_logo_rgb.png" style="width: 180px; margin: 0 10px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/rahfo.svg" style="width: 180px; margin: 0 10px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cancerfonden.webp" style="width: 180px; margin: 0 10px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/vr.svg" style="width: 180px; margin: 0 10px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/vr.png" style="width: 180px; margin: 0 10px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/european_commission.jpg" style="width: 180px; margin: 0 10px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/naiss.jpg" style="width: 180px; margin: 0 10px;">
 </figure>

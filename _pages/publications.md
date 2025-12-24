@@ -55,28 +55,8 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
-
-## Patents
-
-{% for patent in site.data.patents %}
-
-  <em>{{ patent.authors }}</em><br />{{ patent.title }}<br /> <a href="{{patent.url}}">{{ patent.identifier }} ({{patent.year}})</a>
-
-{% endfor %}
-
 ## Full List of publications
 
-
-## List of Publications
-
-### Under Review
-<div class="publications">
-  
-{% bibliography -f publications -q @*[published={{0}}]* %}
-
-</div>
-
-### Published
 <div class="publications">
 
 {%- for y in page.years %}

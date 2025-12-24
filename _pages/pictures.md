@@ -6,12 +6,12 @@ permalink: /pictures/
 ---
 
 # Media and Pictures
-Jump to: [KI](#ki)
+<!-- Jump to: [Conferences](#conferences)
 
 
-## KI
+## Conferences
 
-#### Gallery
+#### Gallery -->
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures_foukakis_ki %}
 

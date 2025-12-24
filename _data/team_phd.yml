@@ -1,0 +1,100 @@
+- name: "Caroline Boman"
+  photo: no-photo.jpg
+  info: MD
+  email: caroline.boman@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: 
+  id: 50001
+
+- name: "Kang Wang"
+  photo: Kang.jpg
+  info: MD, MSc
+  email: kang.wang@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Kang is a fifth-year PhD student specializing in bioinformatics, with a focus on discovering novel multi-omics biomarkers associated with breast cancer treatment response. He holds a medical degree in general surgery from China and joined the group in October 2020 to pursue his doctoral studies.
+  id: 50002
+  scholar_userid: pa1mMeQAAAAJ&hl=en
+  linkedin_username: kang-wang-371887212/
+
+- name: "Evangelos Tzoras"
+  photo: Evangelos.jpg
+  info: MD
+  email: evangelos.tzoras@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: "Evangelos is a PhD student with medical background. He studied medicine in Athens, Greece, between 2013-2019. During his PhD he developed a solid oncologic background and collaborated effectively within the multidisciplinary team. His main interests include tumour biology, oncology, and pathology. He has experience in wet lab (from tissue staining to nucleic acid extraction), in digital pathology (QuPath software, InForm software, training and application of various cell classifiers), and in dry lab (interpretation of bulk -omics results). He is also interested in teaching, as he is a mentor and teaching assistant in the doctoral course for Msc and PhD students, entitled “Basic Course in Tumor Biology and Oncology, #3112”. 
+  Biggest achievement:
+  Significant contribution in the development of an RNA-based signature, CDKPredX, which predicts resistance to neoadjuvant chemotherapy and sensitivity to the combination of CDK4/6 inhibitors and endocrine therapy, for ER+/HER2- breast cancer, in the context of PREDIX LumB study."
+  id: 50003
+  linkedin_username: evangelos-tzoras-b19422366/
+
+- name: "Dimitrios Salgkamis"
+  photo: no-photo.jpg
+  info: MMedSc
+  email: dimitrios.salgkamis@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: 
+  id: 50004
+
+- name: "Nikos Tsiknakis"
+  photo: Nikos.jpeg
+  info: MEng
+  email: nikolaos.tsiknakis@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Nikos is a PhD student in the Foukakis Lab, where he focuses on artificial intelligence and image analysis methods to study breast cancer. His work aims to identify and validate novel biomarkers that support personalized and precision medicine. He earned his Master’s degree in Electrical and Computer Engineering from the University of Patras (Greece) in 2019. Before joining the Foukakis Lab, Nikos worked as a research assistant at the Computational Biomedicine Lab of the Institute of Computer Science, Foundation for Research and Technology – Hellas. There, he contributed to several national and European research projects involving image processing, data integration, and deep/machine learning applications in medicine. His research interests center on AI-driven approaches for translational research, biomarker discovery, and multimodal data integration. He is also particularly interested in validation studies that assess the reliability, trustworthiness, clinical utility, and comparative performance of AI methods in biomedical contexts.
+  id: 50005
+  orcid_id: 0000-0002-7581-467X
+  website: https://tsik.me
+  scholar_userid: vWYykXgAAAAJ
+  research_gate_profile: Nikos-Tsiknakis
+  linkedin_username: tsiknakisn
+  x_username: 
+  github_username: tsikup
+
+- name: "Maria Angeliki Toli"
+  photo: Angeliki.jpg
+  info: MD
+  email: maria.angeliki.toli@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Angeliki is a second-year PhD student working on biomarkers before and after neoadjuvant and adjuvant treatment in breast cancer. She applies biostatistical methods in registry-based studies and is also involved in experimental work using immunohistochemistry and digital pathology. She holds an MD degree and a medical license in Sweden (Leg. läkare). She joined the group in March 2022 as a research assistant contributing to two projects funded by the European Union’s Horizon 2020 research and innovation programme and remains an active member since then. 
+  id: 50006
+  orcid_id: 0000-0002-3150-0062
+  scholar_userid: w-k7VhYAAAAJ
+  research_gate_profile: Maria-Angeliki-Toli
+  linkedin_username: maria-angeliki-toli-831115258
+  x_username: angelikitoli?s=21
+
+- name: "Behnaz Binicy"
+  photo: no-photo.jpg
+  info: MD
+  email: behnaz.khalilzadehbinicy@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: 
+  id: 50007
+
+- name: "Emilia Morales"
+  photo: Emilia.png
+  info: MSc, MMedSc
+  email: emilia.morales@ki.se
+  number_educ: 0
+  education1: 
+  education2: 
+  text: "Emilia is a first-year PhD student working in bioinformatics, where she applies multi-omics approaches to unravel the biology of breast cancer and the effect of treatment in the tumor microenvironment. She holds a degree in Biotechnological Processes Engineering from Universidad San Francisco de Quito (Ecuador). Her early work focused on regenerative medicine using mitochondria, and for her undergraduate thesis, she developed a technique to slow down breast cancer cells progression through the transfer of modified mitochondria, sparking her lasting interest in breast cancer research. Emilia later received an Erasmus Mundus scholarship for the double degree International Master in Innovative Medicine (IMIM), earning a Master’s in Translational Medical Research from Heidelberg University (Germany) and a Master’s in Medical Sciences from Uppsala University (Sweden). She joined our group in January 2024 for her master thesis work and has been part of the team ever since."
+  id: 50008
+  scholar_userid: 2i-OpusAAAAJ
+  research_gate_profile: Emilia-Morales-3
+  linkedin_username: emilia-morales-962244141
+  github_username: emiliamoralest
