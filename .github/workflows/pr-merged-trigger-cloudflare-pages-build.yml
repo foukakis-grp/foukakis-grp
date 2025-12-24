@@ -1,0 +1,15 @@
+name: pr-merged-trigger-cloudflare-pages-build
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  call-cloudflare-hook:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call Cloudflare Pages deploy hook
+        run: |
+          curl -d "" "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/9350cd01-c88a-47ab-9bec-4a30096bbd03"
