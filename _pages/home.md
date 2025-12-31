@@ -41,8 +41,6 @@ To achieve these goals, we integrate clinical research, molecular biology, bioin
 
 We are located at Bioclinicum, Karolinska Institutet, Solna, at the heart of the vibrant city of Stockholm. Embedded in a leading clinical and translational research environment, we collaborate closely with world-class groups in oncology, molecular biology, bioinformatics, and AI-driven precision medicine. We actively participate in EU-funded research projects, and maintain collaborations with leading institutions in Europe, US and worldwide. We also travel frequently to international conferences and meetings (ESMO, ASCO, SABCS, etc.), where we are always happy to connect, collaborate, and exchange ideas with colleagues and fellow researchers who share our passion for translational cancer science.
 
-**We are looking for exceptional new PhD students and Postdocs to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
 ### Our support
 
 <figure class="fifth">

@@ -43,7 +43,7 @@ To learn more about our ongoing projects or to explore collaborative opportuniti
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   <p>{{ theme-item.description }}</p>
-  <p><b>Team members:</b> <em>{{ theme-item.authors }}</em></p>
+  <p><b>Contact:</b> <em>{{ theme-item.authors }}</em></p>
   <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
   <p> {{ theme-item.news2 }}</p>
   <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
@@ -65,7 +65,7 @@ To learn more about our ongoing projects or to explore collaborative opportuniti
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   <p>{{ theme-item.description }}</p>
-  <p><b>Team members:</b> <em>{{ theme-item.authors }}</em></p>
+  <p><b>Contact:</b> <em>{{ theme-item.authors }}</em></p>
   <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
   <p> {{ theme-item.news2 }}</p>
   <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
