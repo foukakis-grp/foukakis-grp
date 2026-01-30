@@ -5,51 +5,37 @@ excerpt: "Foukakis Lab -- Pictures"
 permalink: /pictures/
 ---
 
-# Media and Pictures
-<!-- Jump to: [Conferences](#conferences)
+<h1>Gallery</h1>
 
+{% assign grouped = site.data.pictures_foukakis_ki | group_by: "category" %}
 
-## Conferences
+<p><strong>Jump to:</strong>
+{% for group in grouped %}
+<a href="#{{ group.name | slugify }}">{{ group.name }}</a>{% unless forloop.last %} · {% endunless %}
+{% endfor %}
+</p>
 
-#### Gallery -->
-{% assign number_printed = 0 %}
-{% for pic in site.data.pictures_foukakis_ki %}
+{% for group in grouped %}
+<h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
 
-{% assign even_odd = number_printed | modulo: 4 %}
+{% assign subgroups = group.items | group_by: "subcat" %}
+{% for sub in subgroups %}
 
-{% if even_odd == 0 %}
+{% if sub.name and sub.name != "" %}
+<h3>{{ sub.name }}</h3>
+{% endif %}
+
 <div class="row">
-{% endif %}
-
-<div class="col-sm-5 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/{{ pic.image }}" class="img-responsive" width="95%" style="float: left" />
+{% for pic in sub.items %}
+<div class="col-sm-4">
+<figure style="margin-bottom: 20px;">
+<img src="{{ site.baseurl }}/images/gallery/{{ pic.image }}"
+     class="img-responsive"
+     style="width:100%; height:auto;" />
+</figure>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd > 2 %}
+{% endfor %}
 </div>
-{% endif %}
-
 
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% if even_odd == 2 %}
-</div>
-{% endif %}
-
-{% if even_odd == 3 %}
-</div>
-{% endif %}
-
-<p> &nbsp; </p>
-
-<!-- First advertisement.
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/WebpageLeiden_red.jpg" width="60%" >
-</figure> -->
+{% endfor %}
