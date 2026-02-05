@@ -1,0 +1,65 @@
+
+- title: "Clinical Trials"
+  key: "projtheme1"
+  hasimage: 1
+  width: 60%
+  image: clinical.png
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  contact: Member 1
+  members: Member 2, Member 3
+  projects: "Trial X.."
+  tag: 10001
+  highlight: 1
+  long: 0
+
+- title: "Epidemiology"
+  key: "projtheme2"
+  hasimage: 1
+  width: 60%
+  image: epidemiology.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  contact: Member 1
+  members: Member 2, Member 3
+  projects: "Trial X.."
+  tag: 10002
+  highlight: 1
+  long: 0
+
+- title: "Cancer Immunology & Immunotherapy"
+  key: "projtheme3"
+  hasimage: 1
+  width: 60%
+  image: immunology.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  contact: Member 1
+  members: Member 2, Member 3
+  projects: "Trial X.."
+  tag: 10003
+  highlight: 1
+  long: 0
+
+- title: "Translational Biomarker Research"
+  key: "projtheme4"
+  hasimage: 1
+  width: 60%
+  image: biomarker.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  contact: Member 1
+  members: Member 2, Member 3
+  projects: "Trial X.."
+  tag: 10004
+  highlight: 1
+  long: 0
+
+- title: "Artificial Intelligence & Digital Pathology"
+  key: "projtheme5"
+  hasimage: 1
+  width: 60%
+  image: ai.jpg
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  contact: Member 1
+  members: Member 2, Member 3
+  projects: "Trial X.."
+  tag: 10005
+  highlight: 1
+  long: 0
