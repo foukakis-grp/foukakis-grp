@@ -6,7 +6,7 @@ sitemap: false
 permalink: /data/
 ---
 
-# Datasets
+# Clinical Trials & Datasets
 
 Our research builds on rich, high-quality data collected from retrospective databases and prospective clinical trials of breast cancer. Over the years, we have generated and curated a range of datasets that reflect our multidisciplinary focus — integrating clinical, molecular, imaging, and computational perspectives to better understand breast cancer, treatment pathways and improve patient outcomes.
 
@@ -40,7 +40,7 @@ If you are interested in accessing or collaborating around any of our datasets, 
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   <p>{{ theme-item.description }}</p>
-  <p><b>Modalities:</b> <em>{{ theme-item.modalities }}</em></p>
+  <p><b>Available data:</b> <em>{{ theme-item.modalities }}</em></p>
   <p><b>Contacts:</b> <em>{{ theme-item.authors }}</em></p>
   <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
   <p> {{ theme-item.news2 }}</p>

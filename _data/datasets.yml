@@ -1,0 +1,75 @@
+- title: "ARIADNE"
+  key: "dataset1"
+  hasimage: 1
+  width: 60%
+  image: tmp.jpg
+  small-description: Retrospective multi-omics analysis of breast cancer samples
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+  modalities: RNA-seq, H&E tissue images, Spatial transcriptomics
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+
+- title: "PREDIX HER2"
+  key: "dataset2"
+  hasimage: 1
+  width: 60%
+  image: tmp.jpg
+  small-description: Retrospective multi-omics analysis of breast cancer samples
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+  modalities: RNA-seq, H&E tissue images, Spatial transcriptomics
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "PREDIX LumB"
+  key: "dataset3"
+  hasimage: 1
+  width: 60%
+  image: tmp.jpg
+  small-description: Retrospective multi-omics analysis of breast cancer samples
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+  modalities: RNA-seq, H&E tissue images, Spatial transcriptomics
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "PROMIX"
+  key: "dataset4"
+  hasimage: 1
+  width: 60%
+  image: tmp.jpg
+  small-description: Retrospective multi-omics analysis of breast cancer samples
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+  modalities: RNA-seq, H&E tissue images, Spatial transcriptomics
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "PANTHER"
+  key: "dataset5"
+  hasimage: 1
+  width: 60%
+  image: tmp.jpg
+  small-description: Retrospective multi-omics analysis of breast cancer samples
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus enim, volutpat in lobortis vel, consectetur id nisl. Aenean non velit pellentesque turpis sollicitudin sodales. Nullam in erat ac nisl porta luctus. Maecenas hendrerit suscipit mauris sed vestibulum. Quisque nisi dolor, lobortis non viverra id, dignissim nec felis. Morbi posuere orci et turpis convallis congue. Nullam viverra pharetra purus, eget ultrices urna facilisis at. Etiam ac sapien sit amet erat efficitur finibus. Pellentesque vitae lorem ante.
+  modalities: RNA-seq, H&E tissue images, Spatial transcriptomics
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
