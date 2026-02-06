@@ -1,25 +1,3 @@
-- name: "Caroline Boman"
-  photo: no-photo.jpg
-  info: MD
-  email: caroline.boman@ki.se
-  number_educ: 0
-  education1: Education 1
-  education2: Education 2
-  text: 
-  id: 50001
-
-- name: "Kang Wang"
-  photo: Kang.jpg
-  info: MD, MSc
-  email: kang.wang@ki.se
-  number_educ: 0
-  education1: Education 1
-  education2: Education 2
-  text: Kang is a fifth-year PhD student specializing in bioinformatics, with a focus on discovering novel multi-omics biomarkers associated with breast cancer treatment response. He holds a medical degree in general surgery from China and joined the group in October 2020 to pursue his doctoral studies.
-  id: 50002
-  scholar_userid: pa1mMeQAAAAJ&hl=en
-  linkedin_username: kang-wang-371887212/
-
 - name: "Evangelos Tzoras"
   photo: Evangelos.jpg
   info: MD
@@ -40,8 +18,18 @@
   number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: |
+    Dimitrios is a PhD student, often referred to by the team as the “wet-lab guy”.
+    He earned his Bachelor’s degree in Molecular Biology from the Department of Biology at the University of Crete (Greece). Since moving to Sweden in 2019, he has been member of the Foukakis group (formerly the Bergh group), and has also completed a Master’s degree in Molecular Biology.
+    With approximately 10 years of wet-lab experience he has been handling different types of biospecimens (i.e. FFPE, Fresh-Frozen, single-cell suspensions, whole peripheral blood, plasma, serum, etc.) derived from thousands of patients with cancer enrolled in numerous of neo-adjuvant and adjuvant clinical trials (x7 phase II and x1 phase III) as well as other patient cohorts.
+    His work mainly focuses on the collection, processing and handling of both tissue and liquid biospecimens, while also evaluating the feasibility of novel technique platforms. He aims to optimize both routine and experimental workflows starting from the clinic to the advanced genomic, transcriptomic and proteomic analyses and interpretation of the data. 
+    “It is a privilege to work in the Foukakis multidisciplinary group, alongside highly skilled and talented colleagues. Our goal is to contribute to scientific progress and improve the safety and treatment of patients with breast cancer”.
   id: 50004
+  orcid_id: 0000-0002-3020-0359
+  scholar_userid: eFSXcw8AAAAJ&hl=en
+  research_gate_profile: Dimitrios-Salgkamis
+  linkedin_username: dimitrios-salgkamis
+
 
 - name: "Nikos Tsiknakis"
   photo: Nikos.jpeg

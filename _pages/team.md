@@ -122,7 +122,7 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   </div>
 
   <div class="collapse" id="{{member.id}}-affiliated" style="text-align: left;">
-  {{ member.text }}
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -184,8 +184,8 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -247,8 +247,8 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-phd" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-phd" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -310,8 +310,8 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-student" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-student" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -373,8 +373,8 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-admin" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-admin" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
