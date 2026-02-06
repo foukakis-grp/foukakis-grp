@@ -5,9 +5,13 @@
   width: 60%
   image: clinical.png
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-  contact: Member 1
+  contact: Alexios Matikas (alexios.matikas@ki.se)
   members: Member 2, Member 3
-  projects: "Trial X.."
+  trials:
+    - name: "ARIADNE"
+      slug: ariadne
+    - name: "PREDIX HER2"
+      slug: predix_her2
   tag: 10001
   highlight: 1
   long: 0
@@ -56,9 +60,9 @@
   hasimage: 1
   width: 60%
   image: ai.jpg
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-  contact: Member 1
-  members: Member 2, Member 3
+  description: One of our research themes centers on advancing data-driven and AI-based analyses in breast cancer, spanning biomarker discovery and validation, methodological development, and critical evaluation of artificial intelligence approaches. Within this theme, we develop and benchmark new computational methods, validate emerging biomarkers for patient prognostication and therapy response, and systematically compare AI models to understand their strengths, limitations, and clinical relevance. Our work integrates handcrafted pathomics with machine learning, deep learning, foundation models, and multimodal analyses of histopathology, spatial and molecular data, and clinical information, contributing to state-of-the-art digital pathology and supporting more precise and personalized breast cancer care. 
+  contact: Nikos Tsiknakis (nikolaos.tsiknakis@ki.se)
+  members: Georgios Manikis, Evangelos Tzoras, Kang Wang, Maria Angeliki Toli
   projects: "Trial X.."
   tag: 10005
   highlight: 1

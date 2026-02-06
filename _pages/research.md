@@ -12,10 +12,8 @@ Our projects span the translational spectrum — from patient care to molecular 
 
 Each project is shaped by collaboration — across disciplines within the lab and with external partners in academia, healthcare, and industry. Together, we aim to translate biological understanding into real-world clinical benefit. To learn more about our ongoing projects or to explore collaborative opportunities, please get in touch with us. We welcome new ideas, partnerships, and perspectives that can drive innovation in breast cancer research.
 
-
 ## Research themes
 {% assign paper_show = true %}
-
 
 {% assign number_printed = 0 %}
 {% for theme-item in site.data.research_themes %}
@@ -26,81 +24,117 @@ Each project is shaped by collaboration — across disciplines within the lab an
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
+
 {% if theme-item.long == 1 %}
 <div class="col-sm-12 clearfix">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
-  {% endif %}
+ {% endif %}
+
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   <p>{{ theme-item.description }}</p>
+
+  {% if theme-item.key == "projtheme1" and theme-item.trials %}
+  <ul>
+  {%- for t in theme-item.trials -%}
+    <li><a href="{{ site.baseurl }}/trials/{{ t.slug }}/">{{ t.name }}</a></li>
+  {%- endfor -%}
+  </ul>
+  {% endif %}
 
   {% if theme-item.contact %}
   <p><b>Contact person:</b> <em>{{ theme-item.contact }}</em></p>
   {% endif %}
-  {% if theme-item.members %}
+
+  {% if theme-item.members and theme-item.key != "projtheme1" %}
   <p><b>Associated members:</b> <em>{{ theme-item.members }}</em></p>
   {% endif %}
 
-  <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
-  <p> {{ theme-item.news2 }}</p>
+  {% if theme-item.news1 %}
+  <p class="text-danger"><strong>{{ theme-item.news1 }}</strong></p>
+  {% endif %}
+  {% if theme-item.news2 %}
+  <p>{{ theme-item.news2 }}</p>
+  {% endif %}
 
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
-<div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
-{%- for y in page.tags %}
-{%- if y == theme-item.tag -%}
-{% bibliography -f publications -q @*[tag={{y}}]* %}
-{% endif %}
-{% endfor %}
-</div></div></div>
+  {% unless theme-item.key == "projtheme1" %}
+  <a data-toggle="collapse" href="#{{theme-item.key}}-bib" class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
+  <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
+  {%- for y in page.tags -%}
+    {%- if y == theme-item.tag -%}
+      {% bibliography -f publications -q @*[tag={{y}}]* %}
+    {%- endif -%}
+  {%- endfor -%}
+  </div></div></div>
 
-  <a data-toggle="collapse" href="#{{theme-item.key}}-proj"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Representative projects</a>
-<div class="collapse" id="{{theme-item.key}}-proj"><div class="well-abs">
-{% if theme-item.projects %}
-<p>{{ theme-item.projects }}</p>
-{% endif %}
-</div></div>
+  <a data-toggle="collapse" href="#{{theme-item.key}}-proj" class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Representative projects</a>
+  <div class="collapse" id="{{theme-item.key}}-proj"><div class="well-abs">
+    {% if theme-item.projects %}
+    <p>{{ theme-item.projects }}</p>
+    {% endif %}
+  </div></div>
+  {% endunless %}
 
  </div>
 </div>
 </div>
+
 {% else %}
+
 <div class="col-sm-6 clearfix">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
-  {% endif %}
+ {% endif %}
+
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   <p>{{ theme-item.description }}</p>
+
+  {% if theme-item.key == "projtheme1" and theme-item.trials %}
+  <ul>
+  {%- for t in theme-item.trials -%}
+    <li><a href="{{ site.baseurl }}/trials/{{ t.slug }}/">{{ t.name }}</a></li>
+  {%- endfor -%}
+  </ul>
+  {% endif %}
 
   {% if theme-item.contact %}
   <p><b>Contact person:</b> <em>{{ theme-item.contact }}</em></p>
   {% endif %}
-  {% if theme-item.members %}
+
+  {% if theme-item.members and theme-item.key != "projtheme1" %}
   <p><b>Associated members:</b> <em>{{ theme-item.members }}</em></p>
   {% endif %}
 
-  <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
-  <p> {{ theme-item.news2 }}</p>
+  {% if theme-item.news1 %}
+  <p class="text-danger"><strong>{{ theme-item.news1 }}</strong></p>
+  {% endif %}
+  {% if theme-item.news2 %}
+  <p>{{ theme-item.news2 }}</p>
+  {% endif %}
 
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
-<div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
-{%- for y in page.tags %}
-{%- if y == theme-item.tag or y == theme-item.taga -%}
-{% bibliography -f publications -q @*[tag={{y}} || taga={{y}}]]* %}
-{% endif %}
-{% endfor %}
-</div></div></div>
+  {% unless theme-item.key == "projtheme1" %}
+  <a data-toggle="collapse" href="#{{theme-item.key}}-bib" class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
+  <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
+  {%- for y in page.tags -%}
+    {%- if y == theme-item.tag or y == theme-item.taga -%}
+      {% bibliography -f publications -q @*[tag={{y}}]* %}
+    {%- endif -%}
+  {%- endfor -%}
+  </div></div></div>
 
-  <a data-toggle="collapse" href="#{{theme-item.key}}-proj"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Representative projects</a>
-<div class="collapse" id="{{theme-item.key}}-proj"><div class="well-abs">
-{% if theme-item.projects %}
-<p>{{ theme-item.projects }}</p>
-{% endif %}
-</div></div>
+  <a data-toggle="collapse" href="#{{theme-item.key}}-proj" class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Representative projects</a>
+  <div class="collapse" id="{{theme-item.key}}-proj"><div class="well-abs">
+    {% if theme-item.projects %}
+    <p>{{ theme-item.projects }}</p>
+    {% endif %}
+  </div></div>
+  {% endunless %}
 
  </div>
 </div>
+
 {% assign number_printed = number_printed | plus: 1 %}
 {% if even_odd == 1 %}
 </div>
@@ -115,4 +149,4 @@ Each project is shaped by collaboration — across disciplines within the lab an
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p>&nbsp;</p>

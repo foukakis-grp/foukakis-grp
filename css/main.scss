@@ -177,3 +177,14 @@ firstp {
   display: block;
   margin: 0.5rem auto;
 }
+
+
+.trial-bib ol.bibliography {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.trial-bib ol.bibliography > li::marker {
+  content: "";
+}
