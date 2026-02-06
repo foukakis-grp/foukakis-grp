@@ -5,12 +5,17 @@
   number_educ: 0
   education1: PhD @ Department of Molecular Medicine and Surgery, Karolinska Institutet, 2005
   education2: Docent, Karolinska Institutet, 2014
-  text: Professor Theodoros Foukakis is a senior physician and researcher ...
+  text: > 
+    Theodoros Foukakis, MD PhD is Professor of Oncology at Karolinska Institutet, and senior attending physician and scientific head for breast cancer at the Comprehensive Cancer Centre, Karolinska University Hospital, Stockholm, Sweden. He is head of the national guidelines group for breast cancer in Sweden, member of the Swedish Breast Cancer Group (SweBCG), and Steering Committee Member of The Early Breast Cancer Trialists Collaborative Group (EBCTCG). 
+    
+    Dr. Foukakis completed his medical studies at the University of Crete, Greece in 2002 and moved to Stockholm, Sweden where he pursued a PhD in Cancer Genetics at Karolinska Institutet. Subsequently he had a clinical training in Oncology at Karolinska University Hospital between 2005-2009 and has since then worked as a specialist, combining clinical work with research, focusing on breast cancer.  He has led several investigator-initiated trials sponsored by Karolinska University Hospital and served as national principal investigator for many industry sponsored trials from phase 1 to phase 3. 
+    
+    He is leading a research group of 22 members and has independent funding obtained in national or international competition over the last 10 years. His group is particularly interested in drug and biomarker development in breast cancer with focus in multi-omics analyses and machine-learning.
   id: 20001
-  orcid_id: 
+  orcid_id: 0000-0001-8952-9987
   website: 
   scholar_userid: 
   research_gate_profile: 
-  linkedin_username:
-  x_username: 
+  linkedin_username: theodoros-foukakis-95590914
+  x_username: TFoukakis
   github_username: 
