@@ -23,7 +23,7 @@
   hasimage: 1
   width: 60%
   image: epidemiology.jpg
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  description: #Lorem ipsum dolor sit amet, consectetur adipiscing elit...
   contact: Member 1
   members: Member 2, Member 3
   projects: "Trial X.."
@@ -36,7 +36,7 @@
   hasimage: 1
   width: 60%
   image: immunology.jpg
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  description: #Lorem ipsum dolor sit amet, consectetur adipiscing elit...
   contact: Member 1
   members: Member 2, Member 3
   projects: "Trial X.."
@@ -49,7 +49,7 @@
   hasimage: 1
   width: 60%
   image: biomarker.jpg
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  description: #Lorem ipsum dolor sit amet, consectetur adipiscing elit...
   contact: Member 1
   members: Member 2, Member 3
   projects: "Trial X.."
