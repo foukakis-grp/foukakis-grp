@@ -17,5 +17,5 @@ Biopsies were collected at baseline, at week 12 and at surgery, whereas PET/CT w
 
 **Relevant publications:**
 <div class="trial-bib">
-{% bibliography -f publications -q @*[trial~=predix_lumb]* --template bib_trial %}
+{% bibliography -f publications -q @*[trial~=predix_lumb]* --template bib_trial --sort_by year,month --order descending %}
 </div>

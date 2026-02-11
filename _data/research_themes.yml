@@ -14,6 +14,18 @@
       slug: predix-her2
     - name: "PREDIX Luminal B"
       slug: predix-lumb
+    - name: "PANTHER"
+      slug: panther
+    - name: "PROMIX"
+      slug: promix
+    - name: "SBG 2004-1"
+      slug: sbg
+    - name: "TEX"
+      slug: tex
+    - name: "PASIPHAE"
+      slug: pasiphae
+    - name: "BEVPAC"
+      slug: bevpac
   tag: 10001
   highlight: 1
   long: 0
