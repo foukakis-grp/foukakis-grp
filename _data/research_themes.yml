@@ -11,7 +11,9 @@
     - name: "ARIADNE"
       slug: ariadne
     - name: "PREDIX HER2"
-      slug: predix_her2
+      slug: predix-her2
+    - name: "PREDIX Luminal B"
+      slug: predix-lumb
   tag: 10001
   highlight: 1
   long: 0

@@ -14,7 +14,7 @@ Blood samples and core tumor biopsies were obtained from all patients at baselin
      class="img-responsive center-block"
      style="max-width:700px;" />
 
-Relevant publications:
+**Relevant publications:**
 <div class="trial-bib">
 {% bibliography -f publications -q @*[trial~=predix_her2]* --template bib_trial %}
 </div>

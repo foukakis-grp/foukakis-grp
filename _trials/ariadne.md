@@ -19,7 +19,7 @@ Research biopsies are taken at baseline, after three cycles of therapy in patien
      class="img-responsive center-block"
      style="max-width:700px;" />
 
-Relevant publications:
+**Relevant publications:**
 <div class="trial-bib">
 {% bibliography -f publications -q @*[trial~=ariadne]* --template bib_trial %}
 </div>
