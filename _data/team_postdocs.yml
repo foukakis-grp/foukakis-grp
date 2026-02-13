@@ -99,7 +99,7 @@
 
 - name: "Caroline Boman"
   photo: no-photo.jpg
-  info: MD
+  info: MD, PhD
   email: caroline.boman@ki.se
   number_educ: 0
   education1: Education 1
@@ -109,7 +109,7 @@
 
 - name: "Kang Wang"
   photo: Kang.jpg
-  info: MD, MSc
+  info: MD, MSc, PhD
   email: kang.wang@ki.se
   number_educ: 0
   education1: Education 1
