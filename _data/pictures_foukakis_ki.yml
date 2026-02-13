@@ -1,47 +1,36 @@
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2025
   image: sa25_grp.jpg
-
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2025
   image: sa25_dimitris.jpg
-
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2025
   image: sa25_ioannis.jpg
-
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2025
   image: sa25_kerstin.jpg
-
 - category: Conferences
   subcat: ESMO Breast 2025
   image: esmo_breast_2025.jpg
-
 - category: Conferences
   subcat: ESMO Breast 2025
   image: esmobc_25_2.jpg
-
 - category: Conferences
   subcat: ESMO Breast 2025
   image: esmobc_25_3.jpeg
-
 - category: Conferences
   subcat: ESMO Breast 2025
   image: esmobc_25_4.jpg
-
 - category: Conferences
   subcat: ESMO Breast 2024
   image: esmobc_24_1.jpg
-
 - category: Conferences
   subcat: ESMO Breast 2024
   image: esmobc_24_2.jpg
-
 - category: Conferences
   subcat: ESMO Breast 2024
   image: esmobc_24_3.jpg
-
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2022
   image: sabc_22_1.jpg
@@ -49,27 +38,35 @@
 - category: Retreats
   subcat: Oxford 2025
   image: oxford_1.jpg
-
 - category: Retreats
   subcat: Oxford 2025
   image: oxford_2.jpg
-
 - category: Retreats
   subcat: Crete 2023
   image: crete_1.jpg
-
 - category: Retreats
   subcat: Crete 2023
   image: crete_2.jpg
-
 - category: Retreats
   subcat: Crete 2023
   image: crete_3.jpg
 
+- category: Social
+  subcat: 
+  image: social_1.jpeg
+- category: Social
+  subcat: 
+  image: social_2.jpg
+- category: Social
+  subcat: 
+  image: social_3.jpg
+- category: Social
+  subcat:
+  image: social_4.JPEG
+
 - category: Others
   subcat: Kang nails his thesis!
   image: kang_nail_1.jpg
-
 - category: Others
   subcat: Kang nails his thesis!
   image: kang_nail_2.jpg
