@@ -51,6 +51,16 @@
   subcat: Crete 2023
   image: crete_3.jpg
 
+- category: Especial occasions
+  subcat: Kang Wang nails his thesis! (Jan 16th 2026)
+  image: kang_nail_1.jpg
+- category: Especial occasions
+  subcat: Kang Wang nails his thesis! (Jan 16th 2026)
+  image: kang_nail_2.jpg
+- category: Especial occasions
+  subcat: Caroline Boman defends her thesis! (Oct 24th 2025)
+  image: caroline_def.jpeg
+
 - category: Social
   subcat: 
   image: social_1.jpeg
@@ -63,10 +73,3 @@
 - category: Social
   subcat:
   image: social_4.JPEG
-
-- category: Others
-  subcat: Kang nails his thesis!
-  image: kang_nail_1.jpg
-- category: Others
-  subcat: Kang nails his thesis!
-  image: kang_nail_2.jpg
