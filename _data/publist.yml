@@ -1,19 +1,42 @@
-- title: "Survival Outcomes, Digital TILs, and On-treatment PET/CT During Neoadjuvant Therapy for HER2-positive Breast Cancer: Results from the Randomized PREDIX HER2 Trial"
-  image: ccr2023_29_3.png
-  description: PREDIX HER2 showed similar long-term outcomes for neoadjuvant T‑DM1 and THP in HER2‑positive BC. Higher SUVmax on PET/CT after two cycles predicted lower pCR and worse EFS, and baseline TILs/DTILs added independent prognostic value—supporting combined assessment to identify poor responders early.
-  authors: A. Matikas, H. Johansson, P. Grybäck, J. Bjöhle, B. Acs, C. Boyaci, T. Lekberg, H. Fredholm, E. Elinder, S. Margolin, E. Isaksson-Friman, A. Bosch, H. Lindman, J. Adra, A. Andersson, S. Agartz, M. Hellström, I. Zerdes, J. Hartman, J. Bergh, T. Hatschek, T. Foukakis
+- title: PANTHER Trial Publications
+  image: jama_2016.png
+  description: At the 5-year analysis, tailored dose-dense adjuvant chemotherapy did not significantly improve breast cancer recurrence–free survival compared with standard 3-weekly treatment, despite modest improvement in event-free survival and increased toxicity. However, after 10.3 years of follow-up in the PANTHER trial, dose-dense chemotherapy significantly improved recurrence-free, event-free, and distant disease–free survival—marking the first demonstration of benefit over an optimal control regimen that included docetaxel administered every 3 weeks—although overall survival remained not statistically significant.
+  authors: T. Foukakis, A. Matikas, et al., SweBCG, GBG, ABCSG Consortia
   link:
-    url: https://doi.org/10.1158/1078-0432.CCR-22-2829
-    display: Clinical Cancer Research (2023)
+    url: http://doi.org/10.1001/jama.2016.15865
+    display: JAMA (2016)
+  link2:
+    url: http://doi.org/10.1200/JCO.24.00178
+    display: Journal of Clinical Oncology (2024)
   highlight: 1
   long: 1
 
-- title: "Machine learning-based spatial characterization of tumor-immune microenvironment in the EORTC 10994/BIG 1-00 early breast cancer trial"
-  image: eortc_zerdes.webp
-  description: ML-based digital TIL quantification and multiplex immunofluorescence on pretreatment biopsies show that higher dTILs, total CD4+ and intra-tumoral CD8+ cells—and increased immune–tumor colocalization, especially in triple-negative and TP53‑mutant tumors—predict pathological complete response in early breast cancer.
-  authors: I. Zerdes, A. Matikas, A. Mezheyeuski, G. Manikis, B. Acs, H. Johansson, C. Boyaci, C. Boman, C. Poncet, M. Ignatiadis, Y. Bai, D. L. Rimm, D. Cameron, H. Bonnefoi, J. Bergh, G. MacGrogan, T. Foukakis
+- title: Chemoresistance Evolution in Triple-Negative Breast Cancer Delineated by Single-Cell Sequencing
+  image: cell_2018.jpg
+  description: In this study of 20 patients with triple-negative breast cancer undergoing neoadjuvant chemotherapy, single-cell and bulk sequencing revealed that treatment resistance arose from adaptive selection of pre-existing resistant clones rather than new genomic mutations. While resistant genotypes were already present before therapy, chemotherapy induced transcriptional reprogramming that shaped resistant cellular states.
+  authors: C. Kim, R. Gao, E. Sei, R. Brandt, J. Hartman, T. Hatschek, N. Crosetto, T. Foukakis, N. E. Navin
   link:
-    url: https://doi.org/10.1038/s41523-025-00730-1
-    display: npj Breast Cancer (2025)
+    url: https://doi.org/10.1016/j.cell.2018.03.041
+    display: Cell (2018)
   highlight: 1
-  long: 0
+  long: 1
+
+- title: Neoadjuvant Trastuzumab, Pertuzumab, and Docetaxel vs Trastuzumab Emtansine in Patients With ERBB2-Positive Breast Cancer
+  image: jama_onc_2021.png
+  description: In the randomized phase 2 PREDIX HER2 trial of 202 patients with ERBB2-positive breast cancer, neoadjuvant trastuzumab emtansine (T-DM1) achieved a pathologic complete response rate similar to standard docetaxel, trastuzumab, and pertuzumab (43.9% vs 45.5%; not statistically significant). These findings suggest that, in selected patients, neoadjuvant therapy may be safely de-escalated to T-DM1 monotherapy, with comparable efficacy to standard combination treatment.
+  authors: T. Hatschek, T. Foukakis, J. Bjöhle, T. Lekberg, H. Fredholm, E. Elinder, A. Bosch, G. Pekar, H. Lindman, A. Schiza, Z. Einbeigi, J. Adra, A. Andersson, L. Carlsson, A. C. Dreifaldt, E. Isaksson‑Friman, S. Agartz, E. Azavedo, P. Grybäck, M. Hellström, H. Johansson, C. Maes, I. Zerdes, J. Hartman, Y. Brandberg, J. Bergh
+  link:
+    url: http://doi.org/10.1001/jamaoncol.2021.1932
+    display: JAMA Oncology (2021)
+  highlight: 1
+  long: 1
+
+- title: Longitudinal molecular profiling elucidates immunometabolism dynamics in breast cancer.
+  image: natcoms_2024.png
+  description: This study longitudinally profiles immunometabolic changes in breast tumors before, during, and after neoadjuvant chemotherapy using multi-omics approaches, revealing dynamic interactions between tumor metabolism and immune states. Distinct metabolic programs in tumor and immune cells were associated with treatment response, supporting tumor metabolism as a target for immunomodulation.
+  authors: K. Wang, I. Zerdes, H. J. Johansson, D. Sarhan, Y. Sun, D. C. Kanellis, E. G. Sifakis, A. Mezheyeuski, X. Liu, N. Loman, I. Hedenfalk, J. Bergh, J. Bartek, T. Hatschek, J. Lehtiö, A. Matikas, T. Foukakis
+  link:
+    url: https://doi.org/10.1038/s41467-024-47932-y
+    display: Nature Communications (2024)
+  highlight: 1
+  long: 1
