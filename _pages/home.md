@@ -6,11 +6,13 @@ sitemap: false
 permalink: /
 ---
 
-We are a dynamic, multidisciplinary research group at [Onc-Pat, KI](https://ki.se/en/research/research-areas-centres-and-networks/research-groups/translational-breast-cancer-research-theodoros-foukakis-group), consisting of clinicians, bioinformaticians, epidemiologists, biostatisticians, AI engineers and molecular biologists. We work with clinical studies of **breast cancer** and use molecular analyses of tumor tissue or blood aiming to understand how treatment resistance occurs and to identify novel treatment predictive biomarkers.
+#### Our work aims to improve how patients are selected for therapy and how resistance is prevented or overcome
 
-We aim to: (a) **understand breast cancer**, by uncovering the biological, molecular, and clinical mechanisms that drive treatment resistance and disease progression; and (b) to **advance precision oncology**, by discovering, developing and validating novel biomarkers, through hypothesis-driven and data-driven tools that can guide personalized treatment and improve patient outcomes.
+We are a dynamic [team](https://ki.se/en/research/research-areas-centres-and-networks/research-groups/translational-breast-cancer-research-theodoros-foukakis-group) at the Department of Oncology–Pathology at Karolinska Institutet, bringing together clinicians, molecular biologists, bioinformaticians, epidemiologists, biostatisticians, and AI engineers. We conduct clinical research in **breast cancer** and combine it with molecular profiling of tumor tissue and blood to understand treatment resistance and discover clinically useful, treatment-predictive biomarkers.
 
-To achieve these goals, we integrate clinical research, molecular biology, bioinformatics, and artificial intelligence in a truly multidisciplinary environment. We develop and apply cutting-edge methods — from spatial in situ analyses and single-cell omics to digital pathology and multimodal AI — to reveal the hidden patterns that shape cancer behavior and therapy response.
+Our mission is to (a) **understand breast cancer**, by uncovering the biological, molecular, and clinical mechanisms that drive resistance and disease progression, and (b) **advance precision oncology**, by developing and validating biomarkers that can guide personalized treatment and improve patient outcomes.
+
+To achieve this, we integrate clinical studies, molecular biology, bioinformatics, and artificial intelligence in a highly collaborative environment. We develop and apply cutting-edge methods—from spatial in situ technologies and single-cell omics to digital pathology and multimodal AI—to uncover patterns that shape tumor behavior and therapy response.
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -39,7 +41,7 @@ To achieve these goals, we integrate clinical research, molecular biology, bioin
   </a>
 </div>
 
-We are located at Bioclinicum, Karolinska Institutet, Solna, at the heart of the vibrant city of Stockholm. Embedded in a leading clinical and translational research environment, we collaborate closely with world-class groups in oncology, molecular biology, bioinformatics, and AI-driven precision medicine. We actively participate in EU-funded research projects, and maintain collaborations with leading institutions in Europe, US and worldwide. We also travel frequently to international conferences and meetings (ESMO, ASCO, SABCS, etc.), where we are always happy to connect, collaborate, and exchange ideas with colleagues and fellow researchers who share our passion for translational cancer science.
+We are based at Bioclinicum, Karolinska Institutet (Solna), in Stockholm. Embedded in a leading clinical and translational research setting, we collaborate closely with groups in oncology, molecular biology, bioinformatics, and AI-driven precision medicine. We participate in EU-funded projects and maintain collaborations with leading institutions across Europe, the US, and worldwide. We regularly attend international meetings (ESMO, ASCO, SABCS) and welcome opportunities to connect and collaborate with colleagues who share our passion for translational cancer science.
 
 ### Our support
 

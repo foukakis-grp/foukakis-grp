@@ -14,7 +14,7 @@ Click on each member’s name to learn more about their background, research int
 
 <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
-Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [Postdocs](#postdocs), [PhD Students](#phd-students), [Master and Bachelor Students](#master-and-bachelor-students), [Admins](#administration), [Alumni](#alumni).
+Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-research), [Postdocs](#postdocs), [PhD Students](#phd-students), [Master and Bachelor Students](#master-and-bachelor-students), [Admins](#administration), [Alumni](#alumni).
 
 ## Principal Investigator
 {% assign number_printed = 0 %}
@@ -26,8 +26,8 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix alumni-block">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+<div class="col-sm-12 clearfix alumni-block">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-pi">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
   
@@ -58,8 +58,8 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-pi" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-pi" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -122,7 +122,7 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
   </div>
 
   <div class="collapse" id="{{member.id}}-affiliated" style="text-align: left;">
-  {{ member.text }}
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -184,8 +184,8 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -247,8 +247,8 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-phd" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-phd" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -310,8 +310,8 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-student" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-student" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 
@@ -373,8 +373,8 @@ Jump to [PI](#principal-investigator), [Researchers](#affiliated-to-research), [
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-admin" style="text-align: left;">
-  {{ member.text }}
+  <div class="collapse" id="{{member.id}}-admin" style="text-align: left; clear: both;">
+  {{ member.text | newline_to_br }}
   </div>
 </div>
 

@@ -1,0 +1,159 @@
+- title: "ARIADNE"
+  key: "dataset1"
+  trial_slug: "ariadne"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A randomized neoadjuvant trial in HER2-positive early breast cancer comparing trastuzumab deruxtecan with standard preoperative anti-HER2 therapy and enabling biology-driven treatment selection.
+  description:
+  modalities: 
+  authors: 
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "TNBC Immunotherapy Cohort"
+  key: "dataset10"
+  trial_slug: "tnbc"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A retrospective cohort comprising around 100 patients with TNBC who have underwent standard of care chemo-immunotherapy treatment (KN522 regimen), will be expanded with international collaborations soon.
+  description:
+  modalities: 
+  authors:  
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "PREDIX HER2"
+  key: "dataset2"
+  trial_slug: "predix-her2"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A randomized phase II neoadjuvant study in HER2-positive breast cancer evaluating efficacy, safety, and response-predictive biomarkers across anti-HER2 treatment regimens.
+  description:
+  modalities: 
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "PREDIX Luminal B"
+  key: "dataset3"
+  trial_slug: "predix-lumb"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A randomized phase II neoadjuvant trial in luminal B / HR+ breast cancer testing response-guided strategies that compare standard chemotherapy with CDK4/6-inhibitor–based endocrine approaches and integrated multi-omics biomarker analyses.
+  description:
+  modalities: 
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "PANTHER"
+  key: "dataset4"
+  trial_slug: "panther"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A phase III trial in high-risk early breast cancer comparing tailored dose-dense adjuvant chemotherapy versus standard scheduling to improve recurrence outcomes while evaluating treatment tolerance.
+  description:
+  modalities: 
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "PROMIX"
+  key: "dataset5"
+  trial_slug: "promix"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A translational neoadjuvant study aiming to identify molecular and functional imaging markers that predict early treatment response in breast cancer.
+  description:
+  modalities: longitudinal WES, snRNA, mfIHC, Proteomics
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "SBG 2004-1"
+  key: "dataset6"
+  trial_slug: "sbg"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A randomized, multicenter phase II trial which compared three different regimens as adjuvant treatment for completely resected breast cancer. 
+  description:
+  modalities: 
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "TEX"
+  key: "dataset7"
+  trial_slug: "tex"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A randomized first-line metastatic breast cancer trial comparing epirubicin + paclitaxel with or without capecitabine (TEX) and linking outcomes to tumor biology.
+  description:
+  modalities: 
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "PASIPHAE"
+  key: "dataset8"
+  trial_slug: "pasiphae"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A randomized phase II study in HR+/HER2− advanced breast cancer with endocrine resistance comparing palbociclib + fulvestrant versus capecitabine to define optimal treatment and resistance biology.
+  description:
+  modalities: 
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "BEVPAC"
+  key: "dataset9"
+  trial_slug: "bevpac"
+  hasimage: 0
+  width: 60%
+  image: tmp.jpg
+  small-description: A biomarker-focused study in HER2-negative metastatic breast cancer treated with bevacizumab + paclitaxel, designed to discover predictors of response and mechanisms of resistance using longitudinal sampling.
+  description:
+  modalities: 
+  authors:  Member 1, Member 2, Member 3
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0

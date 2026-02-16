@@ -66,7 +66,9 @@
   number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: "Kerstin is a postdoctoral researcher in Theo Foukakis’ team, focusing on biomarker discovery and validation in clinical trials. Her research explores potential biomarkers with prognostic and predictive relevance. She is also involved in evaluating AI-based models for their prognostic and predictive value across different patient cohorts. Kerstin is a general surgeon, specializing on breast surgery, based in Vienna, Austria, and joined the group in May 2025. She holds a medical degree and a PhD-equivalent degree in Applied Medical Sciences. Photo copyright: Medical University Vienna/Matern"
+  text: | 
+    "Kerstin is a postdoctoral researcher in Theo Foukakis’ team, focusing on biomarker discovery and validation in clinical trials. Her research explores potential biomarkers with prognostic and predictive relevance. She is also involved in evaluating AI-based models for their prognostic and predictive value across different patient cohorts. Kerstin is a general surgeon, specializing on breast surgery, based in Vienna, Austria, and joined the group in May 2025. She holds a medical degree and a PhD-equivalent degree in Applied Medical Sciences. 
+    Photo copyright: Medical University Vienna/Matern"
   id: 40006
   orcid_id: 0000-0001-5484-6229
   research_gate_profile: Kerstin-Wimmer?ev=hdr_xprf
@@ -94,3 +96,25 @@
   education2: Education 2
   text: Eirini is a Consultant Breast Surgeon at Akademiska University Hospital. She holds a PhD focused on magnetic techniques in breast cancer surgery and is a Fellow of the European Board of Surgery in Breast Surgery (FEBS-Breast). In October 2025, she joined the group to continue her postdoctoral research in breast cancer focusing on advancing precision and patient-centered techniques in breast cancer surgery.
   id: 40008
+
+- name: "Caroline Boman"
+  photo: no-photo.jpg
+  info: MD, PhD
+  email: caroline.boman@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: 
+  id: 40009
+
+- name: "Kang Wang"
+  photo: Kang.jpg
+  info: MD, MSc, PhD
+  email: kang.wang@ki.se
+  number_educ: 0
+  education1: Education 1
+  education2: Education 2
+  text: Kang joined our group in 2020 to pursue his PhD, he had his dissertation in January 2026. He works with bioinformatics, with a focus on discovering novel multi-omics biomarkers associated with breast cancer treatment response. He holds a medical degree in general surgery from China and joined the group in October 2020 to pursue his doctoral studies.
+  id: 40010
+  scholar_userid: pa1mMeQAAAAJ&hl=en
+  linkedin_username: kang-wang-371887212/

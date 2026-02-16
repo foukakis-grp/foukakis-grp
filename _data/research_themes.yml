@@ -1,0 +1,83 @@
+
+- title: "Clinical Trials"
+  key: "projtheme1"
+  hasimage: 1
+  width: 60%
+  image: clinical.png
+  description: Clinical studies are essential for improving breast cancer care by translating discoveries into evidence-based treatments. In this section, we present our portfolio of investigator-led and collaborative studies that evaluate new therapies, optimize existing regimens, and refine treatment intensity to maximize benefit while minimizing toxicity. Across these trials, we integrate robust clinical endpoints with translational analyses, linking patient outcomes to tumor biology, biomarkers, and treatment response to accelerate precision medicine for people with breast cancer.
+  contact: Alexios Matikas (alexios.matikas@ki.se)
+  members: Member 2, Member 3
+  trials:
+    - name: "ARIADNE"
+      slug: ariadne
+    - name: "PREDIX HER2"
+      slug: predix-her2
+    - name: "PREDIX Luminal B"
+      slug: predix-lumb
+    - name: "PANTHER"
+      slug: panther
+    - name: "PROMIX"
+      slug: promix
+    - name: "SBG 2004-1"
+      slug: sbg
+    - name: "TEX"
+      slug: tex
+    - name: "PASIPHAE"
+      slug: pasiphae
+    - name: "BEVPAC"
+      slug: bevpac
+  tag: 10001
+  highlight: 1
+  long: 0
+
+- title: "Epidemiology"
+  key: "projtheme2"
+  hasimage: 1
+  width: 60%
+  image: epidemiology.jpg
+  description: #Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  contact: 
+  members: 
+  projects: 
+  tag: 10002
+  highlight: 1
+  long: 0
+
+- title: "Cancer Immunology & Immunotherapy"
+  key: "projtheme3"
+  hasimage: 1
+  width: 60%
+  image: immunology.jpg
+  description: #Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  contact: 
+  members: 
+  projects: 
+  tag: 10003
+  highlight: 1
+  long: 0
+
+- title: "Translational Biomarker Research"
+  key: "projtheme4"
+  hasimage: 1
+  width: 60%
+  image: biomarker.jpg
+  description: #Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  contact: 
+  members: 
+  projects: 
+  tag: 10004
+  highlight: 1
+  long: 0
+
+- title: "Artificial Intelligence & Digital Pathology"
+  key: "projtheme5"
+  hasimage: 1
+  width: 60%
+  image: ai.jpg
+  description: One of our research themes centers on advancing data-driven and AI-based analyses in breast cancer, spanning biomarker discovery and validation, methodological development, and critical evaluation of artificial intelligence approaches. Within this theme, we develop and benchmark new computational methods, validate emerging biomarkers for patient prognostication and therapy response, and systematically compare AI models to understand their strengths, limitations, and clinical relevance. Our work integrates handcrafted pathomics with machine learning, deep learning, foundation models, and multimodal analyses of histopathology, spatial and molecular data, and clinical information, contributing to state-of-the-art digital pathology and supporting more precise and personalized breast cancer care. 
+  contact: Nikos Tsiknakis (nikolaos.tsiknakis@ki.se)
+  members: Georgios Manikis, Evangelos Tzoras, Kang Wang, Maria Angeliki Toli
+  projects: 
+  tag: 10005
+  highlight: 1
+  long: 0
