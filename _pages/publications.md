@@ -56,6 +56,48 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
+<!-- Recent Publications -->
+
+{% assign target_names = "Boman" | split: "; " %}
+{% assign current_year = "now" | date: "%Y"%}
+
+{% assign bib_count = site.bibliography | where: "year", current_year | size %}
+{% if bib_count == 0 %}
+  {% assign current_year = current_year | minus: 1 %}
+{% endif %}
+
+## Recent Publications ({{current_year}})
+
+<div class="publications">
+{% bibliography -f publications -q @*[
+  year={{current_year}} && author ^= Foukakis ||
+  year={{current_year}} && author ^= Matikas ||
+  year={{current_year}} && author ^= Zerdes ||
+  year={{current_year}} && author ^= Papakonstantinou ||
+  year={{current_year}} && author ^= Sifakis ||
+  year={{current_year}} && author ^= Eriksson ||
+  year={{current_year}} && author ^= Liu, X. ||
+  year={{current_year}} && author ^= Manikis ||
+  year={{current_year}} && author ^= Sarafidis ||
+  year={{current_year}} && author ^= Georgiadis ||
+  year={{current_year}} && author ^= Li, S. ||
+  year={{current_year}} && author ^= Filis ||
+  year={{current_year}} && author ^= Wimmer ||
+  year={{current_year}} && author ^= Deng, R. ||
+  year={{current_year}} && author ^= Pantiora ||
+  year={{current_year}} && author ^= Boman ||
+  year={{current_year}} && author ^= Wang. K. ||
+  year={{current_year}} && author ^= Tzoras ||
+  year={{current_year}} && author ^= Salgkamis ||
+  year={{current_year}} && author ^= Tsiknakis ||
+  year={{current_year}} && author ^= Toli ||
+  year={{current_year}} && author ^= Binicy ||
+  year={{current_year}} && author ^= Morales
+]* %}
+</div>
+
+<p> &nbsp; </p>
+
 ## Full List of publications
 
 <div class="publications">
