@@ -43,16 +43,6 @@ If you are interested in accessing or collaborating around any of our datasets, 
 <div class="col-sm-12 clearfix">
 <div class="well">
 
-{% if theme_item.hasimage == 1 %}
-{% if target_url %}
-<a href="{{ target_url }}">
-<img src="{{ site.baseurl }}/images/datapic/{{ theme_item.image }}" class="img-responsive" width="{{ theme_item.width }}" style="float: top"/>
-</a>
-{% else %}
-<img src="{{ site.baseurl }}/images/datapic/{{ theme_item.image }}" class="img-responsive" width="{{ theme_item.width }}" style="float: top"/>
-{% endif %}
-{% endif %}
-
 <h3>
 {% if target_url %}
 <a href="{{ target_url }}" style="text-decoration:none;">
@@ -64,7 +54,10 @@ If you are interested in accessing or collaborating around any of our datasets, 
 </h3>
 
 <p>{{ theme_item.description }}</p>
+
+{% if theme_item.modalities and theme_item.modalities != "" %}
 <p><b>Available data:</b> <em>{{ theme_item.modalities }}</em></p>
+{% endif %}
 
 {% if theme_item.news1 and theme_item.news1 != "" %}
 <p class="text-danger"><strong>{{ theme_item.news1 }}</strong></p>
@@ -81,16 +74,6 @@ If you are interested in accessing or collaborating around any of our datasets, 
 <div class="col-sm-6 clearfix">
 <div class="well">
 
-{% if theme_item.hasimage == 1 %}
-{% if target_url %}
-<a href="{{ target_url }}">
-<img src="{{ site.baseurl }}/images/datapic/{{ theme_item.image }}" class="img-responsive" width="{{ theme_item.width }}" style="float: top"/>
-</a>
-{% else %}
-<img src="{{ site.baseurl }}/images/datapic/{{ theme_item.image }}" class="img-responsive" width="{{ theme_item.width }}" style="float: top"/>
-{% endif %}
-{% endif %}
-
 <h3>
 {% if target_url %}
 <a href="{{ target_url }}" style="text-decoration:none;">
@@ -102,7 +85,10 @@ If you are interested in accessing or collaborating around any of our datasets, 
 </h3>
 
 <h5>{{ theme_item.small-description }}</h5>
+
+{% if theme_item.modalities and theme_item.modalities != "" %}
 <p><b>Modalities:</b> <em>{{ theme_item.modalities }}</em></p>
+{% endif %}
 
 {% if theme_item.news1 and theme_item.news1 != "" %}
 <p class="text-danger"><strong>{{ theme_item.news1 }}</strong></p>
