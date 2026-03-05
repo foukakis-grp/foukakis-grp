@@ -7,6 +7,7 @@
   education2: Education 2
   text: 
   id: 30001
+  ki_profile: jonas-bergh
 
 - name: "Thomas Hatschek"
   photo: no-photo.jpg
@@ -17,6 +18,7 @@
   education2: Education 2
   text: 
   id: 30002
+  ki_profile: thomas-hatschek
 
 - name: "Alexios Matikas"
   photo: Alex.jpg
@@ -28,7 +30,7 @@
   text: Senior consultant physician in breast oncology at Breast Center Karolinska University Hospital, research team leader, associate professor of oncology and deputy director of doctoral studies at Karolinska Institute. Member of the national guidelines committee for breast cancer and the Karolinska Institute dissertation committee, as well as multiple committees and working groups of the European Society for Medical Oncology (ESMO). 
   id: 30003
   orcid_id: 
-  website: https://ki.se/en/people/alexios-matikas
+  ki_profile: alexios-matikas
   website: https://www.esmo.org/about-esmo/biographies/alexios-matikas
   research_gate_profile: 
   linkedin_username: alexios-matikas-1094947b/
@@ -45,7 +47,7 @@
   text: "Ioannis Zerdes is an Associate Professor (Docent) at Karolinska Institutet and Clinical Fellow in Medical Oncology at Karolinska University Hospital in Stockholm, Sweden. He completed his medical degree (MD) at the University of Ioannina in 2015 and PhD in breast cancer immuno-oncology at Karolinska Institutet in 2020. His research focuses on translational cancer research with a focus on breast cancer, immuno-oncology, tumor microenvironment, biomarker discovery and response-adapted treatment strategies, integrating multi-omics profiling within clinical trial and retrospective cohort settings. He has authored >50 peer-reviewed publications and has presented his work at national and international conferences. He has received competitive funding from the Swedish Cancer Society, Swedish Society of Oncology, Region Stockholm and from several foundations, among others. He is Chair of the Young Investigators Steering Committee of the EORTC Breast Cancer Group. He is also an Associate Editor of Breast Cancer Research journal and active member of ESMO, ASCO, AACR. He supervises undergraduate/master/PhD students and postdoctoral researchers and has been an invited lecturer in several oncology-focused undergraduate and postgraduate courses."
   id: 30004
   orcid_id: 
-  website: https://ki.se/en/people/ioannis-zerdes
+  ki_profile: ioannis-zerdes
   scholar_userid: 
   research_gate_profile: Ioannis-Zerdes?ev=hdr_xprf
   linkedin_username: ioannis-zerdes-0500a166/
@@ -61,6 +63,7 @@
   education2: Education 2
   text: 
   id: 30005
+  ki_profile: andri-papakonstantinou
 
 - name: "Emmanouil Sifakis"
   photo: Manos.jpg
@@ -72,7 +75,7 @@
   text: Emmanouil is a bioinformatician at Karolinska Institutet specializing in translational breast-cancer genomics. His research focuses on reproducible analysis of bulk, spatial, and single-cell transcriptomics (RNA-seq and microarray) and on method development for molecular classification in breast cancer. He holds a PhD and MSc in Biomedical Engineering and a five-year Diploma in Electronic and Computer Engineering.
   id: 30006
   orcid_id: 0000-0001-9919-4471
-  website: https://ki.se/en/people/emmanouil-sifakis
+  ki_profile: emmanouil-sifakis
   scholar_userid: UTLiHR4AAAAJ
   research_gate_profile: Emmanouil-Sifakis
   linkedin_username: emmanouil-sifakis/
@@ -87,6 +90,7 @@
   education2: Education 2
   text: 
   id: 30007
+  ki_profile: louise-eriksson
   orcid_id: 
   website: 
   scholar_userid: 
@@ -105,7 +109,9 @@
   text: Xingrong joined our group as a biostatistician in September 2023. He works closely with clinicians and researchers to design studies, manage data, and perform statistical analyses in breast cancer research. Xingrong also supports PhD students, postdocs, and colleagues in applying advanced statistical methods and conducting real-world evidence studies. Before joining the group, he gained research experience in genome-wide association studies of gastrointestinal disease and in registry-based perinatal epidemiology. With an educational background in computational mathematics and mathematical statistics, he earned his Ph.D. in 2017 from the Department of Medical Epidemiology and Biostatistics at Karolinska Institutet, where his doctoral thesis focused on developing and implementing statistical methods for survival analysis. Outside of research, Xingrong enjoys cooking and trying out new recipes. According to his own data, his body weight follows a predictable seasonal pattern- a winter increase followed by a carefully managed summer decrease.
   id: 30008
   orcid_id: 
+  ki_profile: xingrong-liu
   website: https://hdl.handle.net/10616/46039
+  website2: https://cran.r-project.org/web/packages/rstpm2/index.html
   scholar_userid: 
   research_gate_profile: 
   linkedin_username: 
@@ -121,3 +127,4 @@
   education2: Education 2
   text: 
   id: 30009
+  ki_profile: susanne-agartz

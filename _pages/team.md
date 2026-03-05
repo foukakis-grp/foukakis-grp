@@ -35,8 +35,11 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.website %}
-  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% if member.ki_profile %}
+  <a href="https://ki.se/en/people/{{ member.ki_profile }}" title="KI profile" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.orcid_id %}
   <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
@@ -47,14 +50,17 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.research_gate_profile %}
   <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
-  {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-  {% endif %}
   {% if member.x_username %}
   <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
   <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if member.website2 %}
+  <a href="{{ member.website2 }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   </div>
 
@@ -98,8 +104,11 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.website %}
-  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% if member.ki_profile %}
+  <a href="https://ki.se/en/people/{{ member.ki_profile }}" title="KI profile" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.orcid_id %}
   <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
@@ -110,14 +119,17 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.research_gate_profile %}
   <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
-  {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-  {% endif %}
   {% if member.x_username %}
   <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
   <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if member.website2 %}
+  <a href="{{ member.website2 }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   </div>
 
@@ -161,8 +173,11 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.website %}
-  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% if member.ki_profile %}
+  <a href="https://ki.se/en/people/{{ member.ki_profile }}" title="KI profile" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.orcid_id %}
   <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
@@ -173,14 +188,17 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.research_gate_profile %}
   <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
-  {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-  {% endif %}
   {% if member.x_username %}
   <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
   <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if member.website2 %}
+  <a href="{{ member.website2 }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   </div>
 
@@ -224,8 +242,11 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.website %}
-  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% if member.ki_profile %}
+  <a href="https://ki.se/en/people/{{ member.ki_profile }}" title="KI profile" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.orcid_id %}
   <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
@@ -236,14 +257,17 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.research_gate_profile %}
   <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
-  {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-  {% endif %}
   {% if member.x_username %}
   <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
   <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if member.website2 %}
+  <a href="{{ member.website2 }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   </div>
 
@@ -287,8 +311,11 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.website %}
-  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% if member.ki_profile %}
+  <a href="https://ki.se/en/people/{{ member.ki_profile }}" title="KI profile" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.orcid_id %}
   <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
@@ -299,14 +326,17 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.research_gate_profile %}
   <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
-  {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-  {% endif %}
   {% if member.x_username %}
   <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
   <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if member.website2 %}
+  <a href="{{ member.website2 }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   </div>
 
@@ -350,8 +380,11 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
   {% endif %}
-  {% if member.website %}
-  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% if member.ki_profile %}
+  <a href="https://ki.se/en/people/{{ member.ki_profile }}" title="KI profile" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-user"></i></a>
+  {% endif %}
+  {% if member.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
   {% endif %}
   {% if member.orcid_id %}
   <a href="https://orcid.org/{{ member.orcid_id }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-orcid"></i></a>
@@ -362,14 +395,17 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% if member.research_gate_profile %}
   <a href="https://www.researchgate.net/profile/{{member.research_gate_profile}}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-researchgate"></i></a>
   {% endif %}
-  {% if member.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-  {% endif %}
   {% if member.x_username %}
   <a href="https://twitter.com/{{ member.x_username }}" title="X" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
   {% endif %}
   {% if member.github_username %}
   <a href="https://github.com/{{ member.github_username }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+  {% endif %}
+  {% if member.website %}
+  <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  {% endif %}
+  {% if member.website2 %}
+  <a href="{{ member.website2 }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   </div>
 
