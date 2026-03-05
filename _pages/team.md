@@ -64,7 +64,7 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-pi" style="text-align: left; clear: both;">
+  <div class="collapse" id="{{member.id}}-pi" style="text-align: justify; clear: both;">
   {{ member.text | newline_to_br }}
   </div>
 </div>
@@ -129,11 +129,11 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   <a href="{{ member.website }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
   {% endif %}
   {% if member.website2 %}
-  <a href="{{ member.website2 }}" title="Website" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe"></i></a>
+  <a href="{{ member.website2 }}" title="Link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-affiliated" style="text-align: left;">
+  <div class="collapse" id="{{member.id}}-affiliated" style="text-align: justify; clear: both;">
   {{ member.text | newline_to_br }}
   </div>
 </div>
@@ -202,7 +202,7 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: left; clear: both;">
+  <div class="collapse" id="{{member.id}}-postdoc" style="text-align: justify; clear: both;">
   {{ member.text | newline_to_br }}
   </div>
 </div>
@@ -271,7 +271,7 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-phd" style="text-align: left; clear: both;">
+  <div class="collapse" id="{{member.id}}-phd" style="text-align: justify; clear: both;">
   {{ member.text | newline_to_br }}
   </div>
 </div>
@@ -340,7 +340,7 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
   {% endif %}
   </div>
 
-  <div class="collapse" id="{{member.id}}-student" style="text-align: left; clear: both;">
+  <div class="collapse" id="{{member.id}}-student" style="text-align: justify; clear: both;">
   {{ member.text | newline_to_br }}
   </div>
 </div>
