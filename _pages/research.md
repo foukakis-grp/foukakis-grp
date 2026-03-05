@@ -33,7 +33,9 @@ Each project is shaped by collaboration — across disciplines within the lab an
  {% endif %}
 
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
-  <p>{{ theme-item.description }}</p>
+  <div class="theme-desc">
+  {{ theme-item.description | markdownify }}
+  </div>
 
   {% if theme-item.key == "projtheme1" and theme-item.trials %}
   <ul>
@@ -63,17 +65,10 @@ Each project is shaped by collaboration — across disciplines within the lab an
   <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
   {%- for y in page.tags -%}
     {%- if y == theme-item.tag -%}
-      {% bibliography -f publications -q @*[tag={{y}}]* %}
+      {% bibliography -f publications -q @*[tag={{y}}]* --template bib_trial %}
     {%- endif -%}
   {%- endfor -%}
   </div></div></div>
-
-  <a data-toggle="collapse" href="#{{theme-item.key}}-proj" class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Representative projects</a>
-  <div class="collapse" id="{{theme-item.key}}-proj"><div class="well-abs">
-    {% if theme-item.projects %}
-    <p>{{ theme-item.projects }}</p>
-    {% endif %}
-  </div></div>
   {% endunless %}
 
  </div>
@@ -89,7 +84,9 @@ Each project is shaped by collaboration — across disciplines within the lab an
  {% endif %}
 
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
-  <p>{{ theme-item.description }}</p>
+  <div class="theme-desc">
+  {{ theme-item.description | markdownify }}
+  </div>
 
   {% if theme-item.key == "projtheme1" and theme-item.trials %}
   <ul>
@@ -119,17 +116,10 @@ Each project is shaped by collaboration — across disciplines within the lab an
   <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
   {%- for y in page.tags -%}
     {%- if y == theme-item.tag or y == theme-item.taga -%}
-      {% bibliography -f publications -q @*[tag={{y}}]* %}
+      {% bibliography -f publications -q @*[tag={{y}}]* --template bib_trial %}
     {%- endif -%}
   {%- endfor -%}
   </div></div></div>
-
-  <a data-toggle="collapse" href="#{{theme-item.key}}-proj" class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Representative projects</a>
-  <div class="collapse" id="{{theme-item.key}}-proj"><div class="well-abs">
-    {% if theme-item.projects %}
-    <p>{{ theme-item.projects }}</p>
-    {% endif %}
-  </div></div>
   {% endunless %}
 
  </div>
