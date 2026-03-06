@@ -1,11 +1,16 @@
 - name: "Jonas Bergh"
-  photo: no-photo.jpg
+  photo: Jonas.jpg
   info: MD, PhD, Professor
   email: jonas.bergh@ki.se
   number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: |
+   Jonas Bergh is a translational and clinical cancer researcher. Bergh had his MD education at Umeå University and Uppsala University, respectively, followed by internship 1980-1982 and residencies in Pathology and later Oncology at the Academic Hospital in Uppsala. He received his PhD in tumour biology in 1984 and became Associate Professor at Uppsala University in 1986. 
+   Initially, his work was focused on lung cancer, and for the last 30 years on a multitude of breast cancer dimensions. He is Senior Professor at Karolinska Institutet (KI); initially appointed as Professor in Molecular and Clinical Oncology in 2000. In parallel he held a position as Senior Consultant at the Karolinska Comprehensive Cancer Center/Karolinska University Hospital in Stockholm. In 2010 he received the Distinguished Professor Award at KI. From 1995 to 2016 he served as Chairman for the Swedish Breast Cancer Group. During 2018-2025 he was Theme Prefect for Theme Cancer, BioClinicum. He was involved in the accreditation process and was a Board Member for the Karolinska Comprehensive Cancer Center 2020-2025, as well as representing KI in Cancer Core Europe 2020-2023; a joint network of seven leading European cancer centres.
+   Between 2016 and 2023 he was Director for the strategic research programme at KI (2016-2019 StratCan/Strategic Cancer Research, Karolinska Institutet; from 2019 Cancer Research KI after merge of KI Cancer and StratCan). He is both a founding member and a Fellow of the European Academy of Cancer Sciences (EACS). Professor Bergh served as an external consultant for European Medicine Agency (EMA) from 2004; Core Member of the Scientific Advisory Group (oncology-hematology) until 2021. He was Acting Chair for this group 2016-2021. Bergh also served as Scientific Advisor to the Swedish Medical Product Agency, as well as FDA. In 2012, he was appointed Fellow of the Royal College of Physicians (London, UK) and is a Visiting Professor at Oxford University since 2017. 
+   Bergh has also served as the Swedish representative in the Scientific Council for IARC (“the Cancer Division” of WHO). Since 2012, he serves as a Co-Chair for the global network Early Breast Cancer Trialists’ Collaborative Group (EBCTCG) with over 600 clinical scientists. Bergh has at multiple occasions served as a presenter and/or panel member at international consensus meetings for early breast cancer (St. Gallen) and advanced breast cancer (ABC). He received the first ESMO Breast Cancer Award in 2019, and in 2024 he was awarded the Grand Silver Medal at KI for his world‑leading and unique contributions to cancer research. Bergh has served as member of the Nobel Assembly as well as the Nobel Committee at KI and the Sjöberg Prize Committee. 
+   His h-index is 99 (2 Feb. 2026, Web of Science); 51,793 citing articles, total times cited 68,779, average citations 91.1 
   id: 30001
   ki_profile: jonas-bergh
 
