@@ -47,9 +47,11 @@ We are based at Bioclinicum, Karolinska Institutet (Solna), in Stockholm. Embedd
 
 <figure class="fifth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ki_logo_rgb.png" style="width: 180px; margin: 0 10px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/rahfo.svg" style="width: 180px; margin: 0 10px;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cancerfonden.webp" style="width: 180px; margin: 0 10px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/vr.png" style="width: 180px; margin: 0 10px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cancerfonden.webp" style="width: 180px; margin: 0 10px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/rahfo.svg" style="width: 180px; margin: 0 10px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/european_commission.jpg" style="width: 180px; margin: 0 10px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/sls_logotiff.gif" style="width: 180px; margin: 0 10px;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Brostcancerforbundet.png" style="width: 180px; margin: 0 10px;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/naiss.jpg" style="width: 180px; margin: 0 10px;">
 </figure>
