@@ -60,13 +60,16 @@
   github_username: 
 
 - name: "Andri Papakonstantinou"
-  photo: no-photo.jpg
+  photo: Andri.jpg
   info: MD, PhD
   email: andri.papakonstantinou@ki.se
   number_educ: 0
   education1: Education 1
   education2: Education 2
-  text: 
+  text: |
+   Andri Papakonstantinou, MD, MSc, PhD, is a senior researcher at Karolinska Institutet and a senior attending physician at Karolinska University Hospital in Stockholm, where she heads the Unit for Breast Cancer, Endocrine Tumours and Sarcoma at the Comprehensive Cancer Center. She also holds several leadership roles in cancer research and oncology education, including leading the Cancer Research KI Outreach Working Group, and contributing to Sweden’s national guideline groups for breast cancer and sarcoma. 
+   Dr. Papakonstantinou earned her medical degree from Aristotle University of Thessaloniki and later completed her oncology training in Sweden. She also holds an MSc in Clinical Trials from the University of London and a PhD from Karolinska Institutet, where her research focused on treatment-related toxicities in breast cancer, particularly cardiotoxicity. After defending her thesis in 2020, she was awarded a two-year ESMO Translational Research Fellowship, during which she conducted postdoctoral research at the Vall d’Hebron Institute of Oncology (VHIO) in Barcelona. Following her return to Karolinska, she continued her research as part of Foukakis Lab, while also combining clinical work, leadership responsibilities, and teaching.
+   Photo credit: Jan Torbjörnsson
   id: 30005
   ki_profile: andri-papakonstantinou
 
