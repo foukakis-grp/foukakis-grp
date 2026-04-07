@@ -27,7 +27,7 @@ permalink: /pictures/
 
 <div class="row">
 {% for pic in sub.items %}
-<div class="col-sm-4">
+<div class="col-sm-3">
 <figure style="margin-bottom: 20px;">
 <img src="{{ site.baseurl }}/images/gallery/{{ pic.image }}"
      class="img-responsive"
