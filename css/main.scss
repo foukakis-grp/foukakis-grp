@@ -44,10 +44,12 @@ pubtit {
 firstp {
 }
 
+/* Slightly wider content area (was 1000px) */
+.container,
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1000px; /* or 950px */
+  max-width: 1250px; /* try 1100–1250 */
 }
 
 /* Home, News */
@@ -193,4 +195,42 @@ firstp {
 .theme-desc {
   text-align: justify;
   text-justify: inter-word;
+}
+
+
+/* Top navigation bar: soft pink */
+.navbar,
+.navbar-default {
+  background-color: #f6d6df;   /* soft pink */
+  border-color: #f0c7d2;       /* slightly darker pink border */
+}
+
+/* Brand + links */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #2b2b2b;              /* readable dark text */
+}
+
+/* Hover / focus */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000;
+  background-color: transparent;
+}
+
+/* Active tab */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #f0c7d2;   /* slightly darker */
+  color: #000;
+}
+
+/* Optional: hamburger icon color (mobile) */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2b2b2b;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2b2b2b;
 }
