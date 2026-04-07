@@ -37,15 +37,13 @@ pubtit {
 	font-weight: bold;
 }
 
-firstp {
-}
 
 /* Slightly wider content area (was 1000px) */
 .container,
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1250px; /* try 1100–1250 */
+  max-width: 1150px; /* try 1100–1250 */
 }
 
 /* Home, News */
