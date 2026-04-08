@@ -16,7 +16,7 @@ We are grateful to the following organizations that generously fund our activiti
 - [Svenska Läkaresällskapet](https://www.sls.se/)
 - [Bröstcancerförbundet](https://brostcancerforbundet.se/)
 
-as well as those which support us with computational resources:
+As well as those which support us with computational resources:
 - [NAISS](http://naiss.se)
 	- [Alvis @ Chalmers](https://www.c3se.chalmers.se/about/Alvis/)
 	- [Biana @ UPPMAX](https://docs.uppmax.uu.se/cluster_guides/bianca/)
