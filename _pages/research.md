@@ -8,9 +8,9 @@ permalink: /research/
 ---
 
 # Our Research
-Our projects span the translational spectrum — from patient care to molecular discovery and computational innovation — all centered around improving outcomes for individuals with breast cancer. By combining clinical insights with data-driven methodologies, we explore how tumors evolve, resist treatment, and respond to new therapeutic strategies.
+Our projects span the translational spectrum: from patient care to molecular discovery and computational innovation, all centered around improving outcomes for individuals with breast cancer. By combining clinical insights with data-driven methodologies, we explore how tumors evolve, resist treatment, and respond to new therapeutic strategies.
 
-Each project is shaped by collaboration — across disciplines within the lab and with external partners in academia, healthcare, and industry. Together, we aim to translate biological understanding into real-world clinical benefit. To learn more about our ongoing projects or to explore collaborative opportunities, please get in touch with us. We welcome new ideas, partnerships, and perspectives that can drive innovation in breast cancer research.
+Each project is shaped by collaboration across disciplines within the lab and with external partners in academia, healthcare, and industry. Together, we aim to translate biological understanding into real-world clinical benefit. To learn more about our ongoing projects or to explore collaborative opportunities, please get in touch with us. We welcome new ideas, partnerships, and perspectives that can drive innovation in breast cancer research.
 
 ## Research themes
 {% assign paper_show = true %}

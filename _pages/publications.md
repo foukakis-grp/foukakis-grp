@@ -10,12 +10,9 @@ permalink: /publications/
 
 
 # Publications
-
-(See also the personal webpage of our group members)
-
 ## Group highlights
 
-(For a full list of publications, see [below](#full-list-of-publications), and see also the personal webpage of our group members)
+For the complete publication list, jump to the [full list below](#full-list-of-publications). You can also visit our [team page]({{ site.baseurl }}/team) for individual members’ profiles and their publications.
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}

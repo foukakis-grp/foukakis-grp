@@ -6,9 +6,9 @@ sitemap: false
 permalink: /data/
 ---
 
-# Clinical Trials & Datasets
+# Data
 
-Our research builds on rich, high-quality data collected from retrospective databases and prospective clinical trials of breast cancer. Over the years, we have generated and curated a range of datasets that reflect our multidisciplinary focus — integrating clinical, molecular, imaging, and computational perspectives to better understand breast cancer, treatment pathways and improve patient outcomes.
+Our research builds on rich, high-quality data collected from retrospective databases and prospective clinical trials of breast cancer. Over the years, we have generated and curated a range of datasets that reflect our multidisciplinary focus, integrating clinical, molecular, imaging, and computational perspectives to better understand breast cancer, treatment pathways and improve patient outcomes.
 
 These datasets span:
 
@@ -20,11 +20,17 @@ These datasets span:
 
 We value collaboration and believe data sharing accelerates discovery. While some datasets are already available through public repositories, others can be shared upon request in accordance with ethical and legal requirements governing patient data.
 
-If you are interested in accessing or collaborating around any of our datasets, please contact us — we are always open to partnerships that advance cancer research and improve patient care.
+If you are interested in accessing or collaborating around any of our datasets, please contact us, we are always open to partnerships that advance cancer research and improve patient care.
+
+{% assign categories = "Clinical trials|Other datasets" | split: "|" %}
+
+{% for cat in categories %}
+
+### {{ cat }}
 
 {% assign number_printed = 0 %}
 {% for theme_item in site.data.datasets %}
-{% if theme_item.highlight == 1 %}
+{% if theme_item.highlight == 1 and theme_item.category == cat %}
 
 {% if theme_item.trial_slug %}
 {% assign target_url = '/trials/' | append: theme_item.trial_slug | append: '/' | relative_url %}
@@ -84,7 +90,9 @@ If you are interested in accessing or collaborating around any of our datasets, 
 {% endif %}
 </h3>
 
+{% if theme_item.small-description %}
 <h5>{{ theme_item.small-description }}</h5>
+{% endif %}
 
 {% if theme_item.modalities and theme_item.modalities != "" %}
 <p><b>Modalities:</b> <em>{{ theme_item.modalities }}</em></p>
@@ -114,4 +122,6 @@ If you are interested in accessing or collaborating around any of our datasets, 
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<p>&nbsp;</p>
+
+{% endfor %}
