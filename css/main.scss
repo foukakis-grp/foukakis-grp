@@ -218,3 +218,23 @@ pubtit {
   background-color: #f0c7d2;   /* slightly darker */
   color: #000;
 }
+
+
+/* Ensure the Bootstrap column itself stays transparent */
+#newsid {
+  background: transparent !important;
+  border: none !important;
+  padding-bottom: 0;
+}
+
+/* The colored box should hug the content */
+#newsid .news-panel {
+  background: #faf3f6;
+  border: 1px solid #efd7df;
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;   /* <-- gives a clean “end” at the bottom */
+  display: inline-block; /* prevents weird stretching */
+  width: 100%;
+}
