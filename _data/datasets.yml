@@ -1,5 +1,6 @@
 - title: "ARIADNE"
   key: "dataset1"
+  category: "Clinical trials"
   trial_slug: "ariadne"
   small-description: A randomized neoadjuvant trial in HER2-positive early breast cancer comparing trastuzumab deruxtecan with standard preoperative anti-HER2 therapy and enabling biology-driven treatment selection.
   modalities: 
@@ -10,19 +11,9 @@
   news2: 
   long: 0
 
-- title: "TNBC Immunotherapy Cohort"
-  key: "dataset10"
-  small-description: A retrospective cohort comprising around 100 patients with TNBC who have underwent standard of care chemo-immunotherapy treatment (KN522 regimen), will be expanded with international collaborations soon.
-  modalities: 
-  authors:  
-  year: 2019
-  highlight: 1
-  news1: 
-  news2: 
-  long: 0
-
 - title: "PREDIX HER2"
   key: "dataset2"
+  category: "Clinical trials"
   trial_slug: "predix-her2"
   small-description: A randomized phase II neoadjuvant study in HER2-positive breast cancer evaluating efficacy, safety, and response-predictive biomarkers across anti-HER2 treatment regimens.
   modalities:
@@ -35,6 +26,7 @@
 
 - title: "PREDIX Luminal B"
   key: "dataset3"
+  category: "Clinical trials"
   trial_slug: "predix-lumb"
   small-description: A randomized phase II neoadjuvant trial in luminal B / HR+ breast cancer testing response-guided strategies that compare standard chemotherapy with CDK4/6-inhibitor–based endocrine approaches and integrated multi-omics biomarker analyses.
   modalities: 
@@ -47,6 +39,7 @@
 
 - title: "PANTHER"
   key: "dataset4"
+  category: "Clinical trials"
   trial_slug: "panther"
   small-description: A phase III trial in high-risk early breast cancer comparing tailored dose-dense adjuvant chemotherapy versus standard scheduling to improve recurrence outcomes while evaluating treatment tolerance.
   modalities: 
@@ -59,6 +52,7 @@
 
 - title: "PROMIX"
   key: "dataset5"
+  category: "Clinical trials"
   trial_slug: "promix"
   small-description: A translational neoadjuvant study aiming to identify molecular and functional imaging markers that predict early treatment response in breast cancer.
   modalities: WES, snRNA-seq, microarray-based GEP, mfIHC, MS-proteomics
@@ -71,6 +65,7 @@
 
 - title: "SBG 2004-1"
   key: "dataset6"
+  category: "Clinical trials"
   trial_slug: "sbg"
   small-description: A randomized, multicenter phase II trial which compared three different regimens as adjuvant treatment for completely resected breast cancer. 
   modalities: CUTseq, mfIHC
@@ -83,6 +78,7 @@
 
 - title: "TEX"
   key: "dataset7"
+  category: "Clinical trials"
   trial_slug: "tex"
   small-description: A randomized first-line metastatic breast cancer trial comparing epirubicin + paclitaxel with or without capecitabine (TEX) and linking outcomes to tumor biology.
   modalities: GEP
@@ -95,6 +91,7 @@
 
 - title: "PASIPHAE"
   key: "dataset8"
+  category: "Clinical trials"
   trial_slug: "pasiphae"
   small-description: A randomized phase II study in HR+/HER2− advanced breast cancer with endocrine resistance comparing palbociclib + fulvestrant versus capecitabine to define optimal treatment and resistance biology.
   modalities: 
@@ -107,11 +104,60 @@
 
 - title: "BEVPAC"
   key: "dataset9"
+  category: "Clinical trials"
   trial_slug: "bevpac"
   small-description: A biomarker-focused study in HER2-negative metastatic breast cancer treated with bevacizumab + paclitaxel, designed to discover predictors of response and mechanisms of resistance using longitudinal sampling.
   modalities: 
   authors:  Member 1, Member 2, Member 3
   year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "TNBC Immunotherapy cohort"
+  key: "dataset10"
+  category: "Other datasets"
+  small-description: A retrospective cohort comprising around 100 patients with TNBC who have underwent standard of care chemo-immunotherapy treatment (KN522 regimen) at Karolinska Universitetssjukhuset.
+  modalities: 
+  authors:  
+  year: 2019
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "Stockholm cohort"
+  key: "dataset11"
+  category: "Other datasets"
+  small-description: 
+  modalities: 
+  authors:  
+  year: 
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "Uppsala cohort"
+  key: "dataset12"
+  category: "Other datasets"
+  small-description: 
+  modalities: 
+  authors:  
+  year:
+  highlight: 1
+  news1: 
+  news2: 
+  long: 0
+
+- title: "Merck cohort"
+  key: "dataset13"
+  category: "Other datasets"
+  small-description: 
+  modalities: 
+  authors:  
+  year:
   highlight: 1
   news1: 
   news2: 
