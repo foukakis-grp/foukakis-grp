@@ -38,12 +38,10 @@ pubtit {
 }
 
 
-/* Slightly wider content area (was 1000px) */
-.container,
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1150px; /* try 1100–1250 */
+  max-width: 1150px;
 }
 
 /* Home, News */
@@ -219,12 +217,4 @@ pubtit {
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: #f0c7d2;   /* slightly darker */
   color: #000;
-}
-
-/* Optional: hamburger icon color (mobile) */
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #2b2b2b;
-}
-.navbar-default .navbar-toggle {
-  border-color: #2b2b2b;
 }
