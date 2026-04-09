@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-#### We study breast cancer evolution and treatment response using clinical trials, molecular profiling, and computational methods
+#### We study breast cancer evolution and treatment response using clinical trials, molecular profiling, and computational methods.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
