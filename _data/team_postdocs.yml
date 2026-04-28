@@ -1,14 +1,3 @@
-- name: "Georgios Manikis"
-  photo: no-photo.jpg
-  info: MSc, PhD
-  email: georgios.manikis@ki.se
-  number_educ: 0
-  education1: Education 1
-  education2: Education 2
-  text: 
-  id: 40001
-  ki_profile: georgios-manikis
-
 - name: "Michail Sarafidis"
   photo: Michalis.jpg
   info: MEng, PhD
