@@ -48,9 +48,11 @@
   hasimage: 1
   width: 60%
   image: immunology.jpg
-  description: #Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+  description: |
+   Breast cancer is an immunologically heterogeneous disease, where the composition and function of the tumor immune microenvironment critically influence treatment response and clinical outcomes. Although immunotherapy has transformed the management of breast cancer patients, there is still an unmet need for biomarker development and a deeper understanding of treatment resistance.
+   Our research aims to identify biomarkers of immunotherapy response and long-term prognosis, unravel mechanisms of primary and acquired resistance, and define the immunomodulatory effects of chemotherapy and targeted therapies. By integrating multi-omics methodology, with data from national and international clinical trials and population-based cohorts, we seek to uncover clinically relevant biomarkers and novel therapeutic targets that will advance precision immuno-oncology and improve outcomes for patients with breast cancer.
   contact: Ioannis Zerdes (ioannis.zerdes@ki.se)
-  members: Ioannis Zerdes, Andri Papakonstantinou, Kang Wang, Emilia Morales
+  members: Ioannis Zerdes, Andri Papakonstantinou, Xingrong Liu, Kang Wang, Nikolaos Tsiknakis, Emilia Morales
   projects: 
   tag: 10003
   highlight: 1

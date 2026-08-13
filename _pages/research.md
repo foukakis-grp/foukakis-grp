@@ -65,7 +65,7 @@ Each project is shaped by collaboration across disciplines within the lab and wi
   <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
   {%- for y in page.tags -%}
     {%- if y == theme-item.tag -%}
-      {% bibliography -f publications -q @*[tag={{y}}]* --template bib_trial %}
+      {% bibliography -f publications -q @*[tag^={{y}}]* --template bib_trial %}
     {%- endif -%}
   {%- endfor -%}
   </div></div></div>
@@ -116,7 +116,7 @@ Each project is shaped by collaboration across disciplines within the lab and wi
   <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
   {%- for y in page.tags -%}
     {%- if y == theme-item.tag or y == theme-item.taga -%}
-      {% bibliography -f publications -q @*[tag={{y}}]* --template bib_trial %}
+      {% bibliography -f publications -q @*[tag^={{y}}]* --template bib_trial %}
     {%- endif -%}
   {%- endfor -%}
   </div></div></div>
