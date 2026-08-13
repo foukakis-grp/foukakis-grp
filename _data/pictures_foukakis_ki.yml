@@ -1,4 +1,35 @@
 - category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_1.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_1.2.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_2.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_3.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_4.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_5.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_6.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_7.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_8.jpeg
+- category: Conferences
+  subcat: ESMO Breast 2026 (Berlin, Germany)
+  image: esmobc26_9.jpeg
+
+- category: Conferences
   subcat: European Breast Cancer Conference 2026 (Barcelona, Spain)
   image: EBCC_grp.jpg
 - category: Conferences
@@ -10,6 +41,7 @@
 - category: Conferences
   subcat: European Breast Cancer Conference 2026 (Barcelona, Spain)
   image: EBCC_Kerstin.jpg
+
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2025 (USA)
   image: sa25_grp.jpg
@@ -22,6 +54,7 @@
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2025 (USA)
   image: sa25_kerstin.jpg
+
 - category: Conferences
   subcat: ESMO Breast 2025 (Munich, Germany)
   image: esmo_breast_2025.jpg
@@ -43,6 +76,7 @@
 - category: Conferences
   subcat: ESMO Breast 2025 (Munich, Germany)
   image: esmobc_25_4.jpg
+
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2024 (USA)
   image: sa24_1.jpeg
@@ -52,6 +86,7 @@
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2024 (USA)
   image: sa24_3.jpeg
+
 - category: Conferences
   subcat: ESMO 2024 (Barcelona, Spain)
   image: esmo24_1.jpeg
@@ -61,6 +96,7 @@
 - category: Conferences
   subcat: ESMO 2024 (Barcelona, Spain)
   image: esmo24_3.jpeg
+
 - category: Conferences
   subcat: ESMO Breast 2024 (Berlin, Germany)
   image: esmobc_24_1.jpg
@@ -70,6 +106,7 @@
 - category: Conferences
   subcat: ESMO Breast 2024 (Berlin, Germany)
   image: esmobc_24_3.jpg
+
 - category: Conferences
   subcat: San Antonio Breast Cancer Symposium 2022 (USA)
   image: sabc_22_1.jpg
