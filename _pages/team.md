@@ -292,7 +292,10 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
 
 
 
+{% if site.data.team_students and site.data.team_students.size > 0 %}
+
 ## Master and Bachelor Students
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_students %}
 
@@ -305,8 +308,8 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a data-toggle="collapse" href="#{{member.id}}-student">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i> <!--<i><br>email: <{{ member.email }}></i> -->
-  
+  <i>{{ member.info }}</i>
+
   <div class="social-links">
   {% if member.email %}
   <a href="mailto:{{ member.email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
@@ -356,6 +359,8 @@ Jump to [PI](#principal-investigator), [Senior Researchers](#affiliated-to-resea
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
+{% endif %}
+
 {% endif %}
 
 
