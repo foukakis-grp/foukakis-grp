@@ -1,0 +1,63 @@
+---
+---
+
+<div class="recent-pub-card">
+
+  <h4 class="recent-pub-title">
+  {{ entry.title }}
+  </h4>
+
+  <p class="recent-pub-authors">
+  {% for author in entry.author_array %}
+    {% if author.first %}
+      {{ author.first | slice: 0 }}.
+    {% endif %}
+    {% if author.middle %}
+      {{ author.middle | slice: 0 }}.
+    {% endif %}
+    {{ author.last }}{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+  </p>
+
+  <p class="recent-pub-journal">
+    {% if entry.journal %}
+      <em>{{ entry.journal }}</em>{% if entry.month or entry.year %},{% endif %}
+    {% endif %}
+
+    {% case entry.month %}
+      {% when 'jan' %} Jan.
+      {% when 'feb' %} Feb.
+      {% when 'mar' %} Mar.
+      {% when 'apr' %} Apr.
+      {% when 'may' %} May
+      {% when 'jun' %} Jun.
+      {% when 'jul' %} Jul.
+      {% when 'aug' %} Aug.
+      {% when 'sep' %} Sep.
+      {% when 'oct' %} Oct.
+      {% when 'nov' %} Nov.
+      {% when 'dec' %} Dec.
+    {% endcase %}
+    {% if entry.year %} {{ entry.year }}{% endif %}
+  </p>
+
+  {% if entry.doi %}
+    <a
+      class="recent-pub-button"
+      href="https://doi.org/{{ entry.doi }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      Read here
+    </a>
+
+  {% elsif entry.url %}
+    <a
+      class="recent-pub-button"
+      href="{{ entry.url }}"
+      target="_blank"
+      rel="noopener noreferrer">
+      Read here
+    </a>
+  {% endif %}
+
+</div>

@@ -1,3 +1,22 @@
+- title: "Neoadjuvant palbociclib and endocrine therapy versus chemotherapy in ER+/HER2- breast cancer: a randomized phase II trial"
+  image: natcoms_2026.png
+  description: This randomized phase II trial compares neoadjuvant palbociclib plus endocrine therapy with chemotherapy in ER+/HER2− breast cancer, showing comparable radiological response rates between the treatments. Transcriptomic analyses identified distinct biological features associated with response and led to the development of CDKPredX, a gene-expression signature that identifies tumors resistant to chemotherapy but sensitive to palbociclib plus endocrine therapy, supporting biomarker-guided treatment selection.
+  link:
+    url: https://doi.org/10.1038/s41467-026-71452-6
+    display: Nature Communications (2026)
+  highlight: 1
+  long: 1
+
+- title: Longitudinal molecular profiling elucidates immunometabolism dynamics in breast cancer
+  image: natcoms_2024.png
+  description: This study longitudinally profiles immunometabolic changes in breast tumors before, during, and after neoadjuvant chemotherapy using multi-omics approaches, revealing dynamic interactions between tumor metabolism and immune states. Distinct metabolic programs in tumor and immune cells were associated with treatment response, supporting tumor metabolism as a target for immunomodulation.
+  authors: K. Wang, I. Zerdes, H. J. Johansson, D. Sarhan, Y. Sun, D. C. Kanellis, E. G. Sifakis, A. Mezheyeuski, X. Liu, N. Loman, I. Hedenfalk, J. Bergh, J. Bartek, T. Hatschek, J. Lehtiö, A. Matikas, T. Foukakis
+  link:
+    url: https://doi.org/10.1038/s41467-024-47932-y
+    display: Nature Communications (2024)
+  highlight: 1
+  long: 1
+
 - title: PANTHER Trial Publications
   image: jama_2016.png
   description: At the 5-year analysis, tailored dose-dense adjuvant chemotherapy did not significantly improve breast cancer recurrence–free survival compared with standard 3-weekly treatment, despite modest improvement in event-free survival and increased toxicity. However, after 10.3 years of follow-up in the PANTHER trial, dose-dense chemotherapy significantly improved recurrence-free, event-free, and distant disease–free survival—marking the first demonstration of benefit over an optimal control regimen that included docetaxel administered every 3 weeks—although overall survival remained not statistically significant.
@@ -11,16 +30,6 @@
   highlight: 1
   long: 1
 
-- title: Chemoresistance Evolution in Triple-Negative Breast Cancer Delineated by Single-Cell Sequencing
-  image: cell_2018.jpg
-  description: In this study of 20 patients with triple-negative breast cancer undergoing neoadjuvant chemotherapy, single-cell and bulk sequencing revealed that treatment resistance arose from adaptive selection of pre-existing resistant clones rather than new genomic mutations. While resistant genotypes were already present before therapy, chemotherapy induced transcriptional reprogramming that shaped resistant cellular states.
-  authors: C. Kim, R. Gao, E. Sei, R. Brandt, J. Hartman, T. Hatschek, N. Crosetto, T. Foukakis, N. E. Navin
-  link:
-    url: https://doi.org/10.1016/j.cell.2018.03.041
-    display: Cell (2018)
-  highlight: 1
-  long: 1
-
 - title: Neoadjuvant Trastuzumab, Pertuzumab, and Docetaxel vs Trastuzumab Emtansine in Patients With ERBB2-Positive Breast Cancer
   image: jama_onc_2021.png
   description: In the randomized phase 2 PREDIX HER2 trial of 202 patients with ERBB2-positive breast cancer, neoadjuvant trastuzumab emtansine (T-DM1) achieved a pathologic complete response rate similar to standard docetaxel, trastuzumab, and pertuzumab (43.9% vs 45.5%; not statistically significant). These findings suggest that, in selected patients, neoadjuvant therapy may be safely de-escalated to T-DM1 monotherapy, with comparable efficacy to standard combination treatment.
@@ -31,12 +40,12 @@
   highlight: 1
   long: 1
 
-- title: Longitudinal molecular profiling elucidates immunometabolism dynamics in breast cancer.
-  image: natcoms_2024.png
-  description: This study longitudinally profiles immunometabolic changes in breast tumors before, during, and after neoadjuvant chemotherapy using multi-omics approaches, revealing dynamic interactions between tumor metabolism and immune states. Distinct metabolic programs in tumor and immune cells were associated with treatment response, supporting tumor metabolism as a target for immunomodulation.
-  authors: K. Wang, I. Zerdes, H. J. Johansson, D. Sarhan, Y. Sun, D. C. Kanellis, E. G. Sifakis, A. Mezheyeuski, X. Liu, N. Loman, I. Hedenfalk, J. Bergh, J. Bartek, T. Hatschek, J. Lehtiö, A. Matikas, T. Foukakis
+- title: Chemoresistance Evolution in Triple-Negative Breast Cancer Delineated by Single-Cell Sequencing
+  image: cell_2018.jpg
+  description: In this study of 20 patients with triple-negative breast cancer undergoing neoadjuvant chemotherapy, single-cell and bulk sequencing revealed that treatment resistance arose from adaptive selection of pre-existing resistant clones rather than new genomic mutations. While resistant genotypes were already present before therapy, chemotherapy induced transcriptional reprogramming that shaped resistant cellular states.
+  authors: C. Kim, R. Gao, E. Sei, R. Brandt, J. Hartman, T. Hatschek, N. Crosetto, T. Foukakis, N. E. Navin
   link:
-    url: https://doi.org/10.1038/s41467-024-47932-y
-    display: Nature Communications (2024)
+    url: https://doi.org/10.1016/j.cell.2018.03.041
+    display: Cell (2018)
   highlight: 1
   long: 1
