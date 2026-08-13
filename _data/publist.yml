@@ -1,6 +1,7 @@
 - title: "Neoadjuvant palbociclib and endocrine therapy versus chemotherapy in ER+/HER2- breast cancer: a randomized phase II trial"
   image: natcoms_2026.png
   description: This randomized phase II trial compares neoadjuvant palbociclib plus endocrine therapy with chemotherapy in ER+/HER2− breast cancer, showing comparable radiological response rates between the treatments. Transcriptomic analyses identified distinct biological features associated with response and led to the development of CDKPredX, a gene-expression signature that identifies tumors resistant to chemotherapy but sensitive to palbociclib plus endocrine therapy, supporting biomarker-guided treatment selection.
+  authors: A. Matikas, E. Tzoras, M. Sarafidis, E. G. Sifakis, J. Bjöhle, E. Barnekow, S. Margolin, E. Isaksson-Friman, L. E. Kessler, A. Zouzos, H. Johansson, M. Hellström, S. Agartz, P. Grybäck, D. Salgkamis, I. Zerdes, K. Wang, J. Hartman, B. Acs, W. Sun, C. Boyaci, G. Villacampa, T. Pascual, J. Gavila, A. Prat, C. Perou, Y. Brandberg, J. Bergh, T. Hatschek, T. Foukakis 
   link:
     url: https://doi.org/10.1038/s41467-026-71452-6
     display: Nature Communications (2026)
